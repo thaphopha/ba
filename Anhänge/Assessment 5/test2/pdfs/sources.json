@@ -1,0 +1,163 @@
+{
+  "2504_08999v1.pdf": {
+    "title": "MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context\n  Protocol Servers",
+    "authors": [
+      "Arash Ahmadi",
+      "Sarah Sharif",
+      "Yaser M. Banad"
+    ],
+    "year": 2025,
+    "journal": null,
+    "doi": null,
+    "arxiv_id": "2504_08999v1",
+    "pdf_url": "http://arxiv.org/pdf/2504.08999v1",
+    "citation": "Ahmadi, A., Sharif, S., & Banad, Y. M. (2025). MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context\n  Protocol Servers. arXiv. https://arxiv.org/abs/2504.08999v1",
+    "screening_result": "None"
+  },
+  "2508_13220v1.pdf": {
+    "title": "MCPSecBench: A Systematic Security Benchmark and Playground for Testing\n  Model Context Protocols",
+    "authors": [
+      "Yixuan Yang",
+      "Daoyuan Wu",
+      "Yufan Chen"
+    ],
+    "year": 2025,
+    "journal": null,
+    "doi": null,
+    "arxiv_id": "2508_13220v1",
+    "pdf_url": "http://arxiv.org/pdf/2508.13220v1",
+    "citation": "Yang, Y., Wu, D., & Chen, Y. (2025). MCPSecBench: A Systematic Security Benchmark and Playground for Testing\n  Model Context Protocols. arXiv. https://arxiv.org/abs/2508.13220v1",
+    "screening_result": "None"
+  },
+  "2508_19239v1.pdf": {
+    "title": "Model Context Protocols in Adaptive Transport Systems: A Survey",
+    "authors": [
+      "Gaurab Chhetri",
+      "Shriyank Somvanshi",
+      "Md Monzurul Islam",
+      "Shamyo Brotee",
+      "Mahmuda Sultana Mimi",
+      "Dipti Koirala",
+      "Biplov Pandey",
+      "Subasish Das"
+    ],
+    "year": 2025,
+    "journal": null,
+    "doi": null,
+    "arxiv_id": "2508_19239v1",
+    "pdf_url": "http://arxiv.org/pdf/2508.19239v1",
+    "citation": "Chhetri, G., Somvanshi, S., Islam, M. M., Brotee, S., Mimi, M. S., Koirala, D., Pandey, B., & Das, S. (2025). Model Context Protocols in Adaptive Transport Systems: A Survey. arXiv. https://arxiv.org/abs/2508.19239v1",
+    "screening_result": "None"
+  },
+  "2508_07575v1.pdf": {
+    "title": "MCPToolBench++: A Large Scale AI Agent Model Context Protocol MCP Tool\n  Use Benchmark",
+    "authors": [
+      "Shiqing Fan",
+      "Xichen Ding",
+      "Liang Zhang",
+      "Linjian Mo"
+    ],
+    "year": 2025,
+    "journal": null,
+    "doi": null,
+    "arxiv_id": "2508_07575v1",
+    "pdf_url": "http://arxiv.org/pdf/2508.07575v1",
+    "citation": "Fan, S., Ding, X., Zhang, L., & Mo, L. (2025). MCPToolBench++: A Large Scale AI Agent Model Context Protocol MCP Tool\n  Use Benchmark. arXiv. https://arxiv.org/abs/2508.07575v1",
+    "screening_result": "None"
+  },
+  "2504_12757v2.pdf": {
+    "title": "MCP Guardian: A Security-First Layer for Safeguarding MCP-Based AI\n  System",
+    "authors": [
+      "Sonu Kumar",
+      "Anubhav Girdhar",
+      "Ritesh Patil",
+      "Divyansh Tripathi"
+    ],
+    "year": 2025,
+    "journal": null,
+    "doi": null,
+    "arxiv_id": "2504_12757v2",
+    "pdf_url": "http://arxiv.org/pdf/2504.12757v2",
+    "citation": "Kumar, S., Girdhar, A., Patil, R., & Tripathi, D. (2025). MCP Guardian: A Security-First Layer for Safeguarding MCP-Based AI\n  System. arXiv. https://arxiv.org/abs/2504.12757v2",
+    "screening_result": "None"
+  },
+  "2504_03767v2.pdf": {
+    "title": "MCP Safety Audit: LLMs with the Model Context Protocol Allow Major\n  Security Exploits",
+    "authors": [
+      "Brandon Radosevich",
+      "John Halloran"
+    ],
+    "year": 2025,
+    "journal": null,
+    "doi": null,
+    "arxiv_id": "2504_03767v2",
+    "pdf_url": "http://arxiv.org/pdf/2504.03767v2",
+    "citation": "Radosevich, B. & Halloran, J. (2025). MCP Safety Audit: LLMs with the Model Context Protocol Allow Major\n  Security Exploits. arXiv. https://arxiv.org/abs/2504.03767v2",
+    "screening_result": "None"
+  },
+  "2504_19997v1.pdf": {
+    "title": "Simplified and Secure MCP Gateways for Enterprise AI Integration",
+    "authors": [
+      "Ivo Brett"
+    ],
+    "year": 2025,
+    "journal": null,
+    "doi": null,
+    "arxiv_id": "2504_19997v1",
+    "pdf_url": "http://arxiv.org/pdf/2504.19997v1",
+    "citation": "Brett, I. (2025). Simplified and Secure MCP Gateways for Enterprise AI Integration. arXiv. https://arxiv.org/abs/2504.19997v1",
+    "screening_result": "None"
+  },
+  "2506_13538v4.pdf": {
+    "title": "Model Context Protocol (MCP) at First Glance: Studying the Security and\n  Maintainability of MCP Servers",
+    "authors": [
+      "Mohammed Mehedi Hasan",
+      "Hao Li",
+      "Emad Fallahzadeh",
+      "Gopi Krishnan Rajbahadur",
+      "Bram Adams",
+      "Ahmed E. Hassan"
+    ],
+    "year": 2025,
+    "journal": null,
+    "doi": null,
+    "arxiv_id": "2506_13538v4",
+    "pdf_url": "http://arxiv.org/pdf/2506.13538v4",
+    "citation": "Hasan, M. M., Li, H., Fallahzadeh, E., Rajbahadur, G. K., Adams, B., & Hassan, A. E. (2025). Model Context Protocol (MCP) at First Glance: Studying the Security and\n  Maintainability of MCP Servers. arXiv. https://arxiv.org/abs/2506.13538v4",
+    "screening_result": "None"
+  },
+  "2503_23278v2.pdf": {
+    "title": "Model Context Protocol (MCP): Landscape, Security Threats, and Future\n  Research Directions",
+    "authors": [
+      "Xinyi Hou",
+      "Yanjie Zhao",
+      "Shenao Wang",
+      "Haoyu Wang"
+    ],
+    "year": 2025,
+    "journal": null,
+    "doi": null,
+    "arxiv_id": "2503_23278v2",
+    "pdf_url": "http://arxiv.org/pdf/2503.23278v2",
+    "citation": "Hou, X., Zhao, Y., Wang, S., & Wang, H. (2025). Model Context Protocol (MCP): Landscape, Security Threats, and Future\n  Research Directions. arXiv. https://arxiv.org/abs/2503.23278v2",
+    "screening_result": "None"
+  },
+  "2506_13666v1.pdf": {
+    "title": "We Should Identify and Mitigate Third-Party Safety Risks in MCP-Powered\n  Agent Systems",
+    "authors": [
+      "Junfeng Fang",
+      "Zijun Yao",
+      "Ruipeng Wang",
+      "Haokai Ma",
+      "Xiang Wang",
+      "Tat-Seng Chua"
+    ],
+    "year": 2025,
+    "journal": null,
+    "doi": null,
+    "arxiv_id": "2506_13666v1",
+    "pdf_url": "http://arxiv.org/pdf/2506.13666v1",
+    "citation": "Fang, J., Yao, Z., Wang, R., Ma, H., Wang, X., & Chua, T. (2025). We Should Identify and Mitigate Third-Party Safety Risks in MCP-Powered\n  Agent Systems. arXiv. https://arxiv.org/abs/2506.13666v1",
+    "screening_result": "None"
+  }
+}

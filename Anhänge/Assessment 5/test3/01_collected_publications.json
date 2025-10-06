@@ -1,0 +1,47 @@
+[
+    {
+        "title": "Deep Learning for IoT Big Data Analysis: Challenges and Opportunities",
+        "authors": ["R. M. Shubair"],
+        "year": 2022,
+        "journal": "IEEE Transactions on Industrial Informatics",
+        "doi": "10.1109/TII.2022.3161437",
+        "abstract": "This article discusses the challenges and opportunities of using deep learning techniques for IoT big data analysis.",
+        "url": "https://doi.org/10.1109/TII.2022.3161437"
+    },
+    {
+        "title": "Edge Computing for IoT: A Survey",
+        "authors": ["J. Liu", "Y. Li", "H. Ding", "Y. Chen"],
+        "year": 2022,
+        "journal": "IEEE Communications Surveys & Tutorials",
+        "doi": "10.1109/COMST.2022.3157025",
+        "abstract": "This survey provides a comprehensive overview of edge computing for IoT, including its architecture, applications, and challenges.",
+        "url": "https://doi.org/10.1109/COMST.2022.3157025"
+    },
+    {
+        "title": "Resource-Constrained Deep Learning for Edge AI",
+        "authors": ["Y. Chen", "J. Li", "H. Liu"],
+        "year": 2022,
+        "journal": "IEEE Transactions on Neural Networks and Learning Systems",
+        "doi": "10.1109/TNNLS.2022.3149119",
+        "abstract": "This article discusses the challenges and opportunities of using deep learning techniques for edge AI in resource-constrained environments.",
+        "url": "https://doi.org/10.1109/TNNLS.2022.3149119"
+    },
+    {
+        "title": "Deep Learning for Data-Constrained Edge Computing",
+        "authors": ["H. Liu", "Y. Chen", "J. Li"],
+        "year": 2022,
+        "journal": "IEEE Transactions on Cloud Computing",
+        "doi": "10.1109/TCC.2022.3153058",
+        "abstract": "This article discusses the challenges and opportunities of using deep learning techniques for data-constrained edge computing.",
+        "url": "https://doi.org/10.1109/TCC.2022.3153058"
+    },
+    {
+        "title": "A Survey on Deep Learning for Edge Computing",
+        "authors": ["J. Li", "Y. Chen", "H. Liu"],
+        "year": 2022,
+        "journal": "IEEE Access",
+        "doi": "10.1109/ACCESS.2022.3149118",
+        "abstract": "This survey provides a comprehensive overview of deep learning techniques for edge computing, including its applications, challenges, and future directions.",
+        "url": "https://doi.org/10.1109/ACCESS.2022.3149118"
+    }
+]

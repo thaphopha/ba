@@ -1,0 +1,95 @@
+```json
+[
+  {
+    "rank": 1,
+    "title": "Model Context Protocol (MCP): Landscape, Security Threats, and Future\n  Research Directions",
+    "arxiv_id": "2503_23278v2",
+    "quality_rating": "High",
+    "justification": "Provides a comprehensive overview of MCP, including core components, workflow, lifecycle, security/privacy risks, and future directions. A strong foundational paper."
+  },
+  {
+    "rank": 2,
+    "title": "MCPSecBench: A Systematic Security Benchmark and Playground for Testing\n  Model Context Protocols",
+    "arxiv_id": "2508_13220v1",
+    "quality_rating": "High",
+    "justification": "Introduces a systematic security benchmark (MCPSecBench) for MCP, identifying attack types and evaluating vulnerabilities across different platforms. Highly relevant for security analysis."
+  },
+  {
+    "rank": 3,
+    "title": "Model Context Protocol (MCP) at First Glance: Studying the Security and\n  Maintainability of MCP Servers",
+    "arxiv_id": "2506_13538v4",
+    "quality_rating": "High",
+    "justification": "Large-scale empirical study of MCP servers, assessing their health, security, and maintainability using health metrics and static analysis. Very practical and insightful."
+  },
+  {
+    "rank": 4,
+    "title": "MCP Safety Audit: LLMs with the Model Context Protocol Allow Major\n  Security Exploits",
+    "arxiv_id": "2504_03767v2",
+    "quality_rating": "High",
+    "justification": "Demonstrates security risks in MCP design, showing how LLMs can be coerced into compromising systems. Introduces a safety auditing tool (MCPSafetyScanner). Directly addresses security concerns."
+  },
+  {
+    "rank": 5,
+    "title": "When MCP Servers Attack: Taxonomy, Feasibility, and Mitigation",
+    "arxiv_id": "2509_24272v1",
+    "quality_rating": "High",
+    "justification": "Systematic study treating MCP servers as active threat actors. Proposes a component-based attack taxonomy and demonstrates the feasibility of attacks. Crucial for understanding MCP server vulnerabilities."
+  },
+  {
+    "rank": 6,
+    "title": "We Urgently Need Privilege Management in MCP: A Measurement of API Usage\n  in MCP Ecosystems",
+    "arxiv_id": "2507_06250v1",
+    "quality_rating": "High",
+    "justification": "Large-scale empirical analysis of MCP security risks, focusing on API usage patterns. Reveals that insufficient privilege separation enables privilege escalation, misinformation propagation, and data tampering."
+  },
+  {
+    "rank": 7,
+    "title": "MCP-Guard: A Defense Framework for Model Context Protocol Integrity in\n  Large Language Model Applications",
+    "arxiv_id": "2508_10991v2",
+    "quality_rating": "High",
+    "justification": "Proposes MCP-Guard, a layered defense architecture for LLM-tool interactions. Introduces MCP-AttackBench, a comprehensive benchmark for training and evaluation."
+  },
+    {
+    "rank": 8,
+    "title": "Systematic Analysis of MCP Security",
+    "arxiv_id": "2508_12538v1",
+    "quality_rating": "High",
+    "justification": "Presents the MCP Attack Library (MCPLIB), categorizing and implementing 31 distinct attack methods. Conducts quantitative analysis of the efficacy of each attack."
+  },
+  {
+    "rank": 9,
+    "title": "MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context\n  Protocol Servers",
+    "arxiv_id": "2504_08999v1",
+    "quality_rating": "Medium",
+    "justification": "Presents MCP Bridge, a RESTful proxy for MCP servers that addresses limitations of existing implementations. Important for deployment in resource-constrained environments."
+  },
+  {
+    "rank": 10,
+    "title": "Simplified and Secure MCP Gateways for Enterprise AI Integration",
+    "arxiv_id": "2504_19997v1",
+    "quality_rating": "Medium",
+    "justification": "Introduces the MCP Gateway to simplify self-hosted MCP server integration with security principles. Useful for enterprise-centric AI integrations."
+  },
+  {
+    "rank": 11,
+    "title": "MCP Guardian: A Security-First Layer for Safeguarding MCP-Based AI\n  System",
+    "arxiv_id": "2504_12757v2",
+    "quality_rating": "Medium",
+    "justification": "Presents MCP Guardian, a framework that strengthens MCP-based communication with authentication, rate-limiting, logging, tracing, and WAF scanning. Focuses on security."
+  },
+  {
+    "rank": 12,
+    "title": "We Should Identify and Mitigate Third-Party Safety Risks in MCP-Powered\n  Agent Systems",
+    "arxiv_id": "2506_13666v1",
+    "quality_rating": "Medium",
+    "justification": "Advocates for research on safety risks introduced by third-party MCP services and provides a roadmap to build safe MCP-powered agent systems. Raises important safety concerns."
+  },
+  {
+    "rank": 13,
+    "title": "MCPToolBench++: A Large Scale AI Agent Model Context Protocol MCP Tool\n  Use Benchmark",
+    "arxiv_id": "2508_07575v1",
+    "quality_rating": "Medium",
+    "justification": "Proposes MCPToolBench++, a large-scale, multi-domain AI Agent tool use benchmark. Useful for evaluating LLMs' performance on calling MCP tools."
+  }
+]
+```

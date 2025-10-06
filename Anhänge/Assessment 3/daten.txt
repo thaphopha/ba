@@ -1,0 +1,62 @@
+Assessment 1
+draft-mittel: 8.08 
+final-mittel: 9.16
+
+Gemini
+draft: 8.33
+final: 9.17
+
+ChatGPT
+draft: 8.2
+final: 9.0
+
+Perplexity
+draft: 7.7
+mittel: 9.3 
+
+assessment 2
+
+Thema REST
+crew-mittel: 9.13 
+flow-mittel: 7.73
+
+chatgpt: 
+crew:9.2, flow: 8.8
+
+gemini: 
+crew:9.7, flow: 7.2
+
+perplexity: 
+crew: 8.5, flow: 7.2
+
+
+Thema DL:
+crew-mittel: 7.4 
+flow-mittel: 8.9
+
+chatgpt
+crew: 9.0; flow: 8.2
+
+gemini
+crew: 6.7; flow: 9.8
+
+perplexity
+crew: 6.5; flow: 8.7
+
+
+Thema: AI Health
+crew-mittel: 8.66
+flow-mittel: 8.83
+
+chatgpt: 
+crew: 8.67, flow: 9
+
+gemini:
+crew: 9.8, flow: 8.5
+
+perplexity: 
+crew: 7.5, flow: 9.0
+
+
+
+

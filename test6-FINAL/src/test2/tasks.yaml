@@ -1,0 +1,102 @@
+collect_publications_task:
+  description: >
+    Conduct a comprehensive search for scientific publications related to {topic}.
+    Search across multiple academic databases including PubMed, IEEE Xplore,
+    ACM Digital Library, Google Scholar, and relevant domain-specific databases.
+    Use advanced search strategies with appropriate keywords, Boolean operators,
+    and filters. Focus on publications from the last {timeframe} years unless
+    historical context is specifically needed.
+  expected_output: >
+    A comprehensive list of relevant scientific publications with complete
+    bibliographic information including titles, authors, journals, publication
+    years, DOIs, abstracts, and access links. Minimum 50-100 publications
+    depending on topic scope.
+  agent: publication_collector
+
+filter_publications_task:
+  description: >
+    Review and filter the collected publications based on relevance, quality,
+    and methodological rigor. Evaluate each publication using criteria such as:
+    journal impact factor, citation count, peer review status, methodology
+    quality, relevance to {topic}, and publication recency. Exclude any publication
+    that you find not relevant to the topic {topic}
+  expected_output: >
+    A curated list of 10-15 high-quality, relevant publications with quality
+    ratings and brief justifications for inclusion. Include ranking based on
+    relevance and impact.
+  agent: publication_filter
+  context:
+    - collect_publications_task
+
+process_publications_task:
+  description: >
+    Extract and synthesize key information from the filtered publications.
+    For each publication, identify: main research questions, methodologies,
+    key findings, limitations, implications, and relevance to {topic}.
+    Organize the information thematically and identify patterns, trends,
+    and knowledge gaps across the literature.
+  expected_output: >
+    A well-organized synthesis document containing: thematic categorization
+    of research, key findings summary, methodological approaches overview,
+    identified research gaps, and emerging trends in the field. Include
+    proper citations for all referenced material.
+  agent: content_processor
+  context:
+    - filter_publications_task
+
+write_chapter_task:
+  description: >
+    Write a comprehensive academic Related Works chapter on {topic} based on the 
+    processed research findings. The chapter should include: an introduction that 
+    outlines the purpose and scope of the chapter, a thematically organized comparison 
+    of relevant literature, a critical discussion of the current state of the art of the topic 
+    {topic}. Compare the authors’ approaches, results, and limitations, and an explicit 
+    identification of research gaps. Conclude with a synthesis that highlights how the
+    highlighted works inform the present study and point to directions for future research.
+    Follow academic writing standards with proper citations in APA style and references 
+    in APA Style including the url. Only answer with the final result.
+  expected_output: >
+    A complete academic related works chapter (800-1000 words) with proper structure:
+    introduction, thematic main sections with subsections, conclusions,
+    and references. Written in formal academic style with clear argumentation
+    and comprehensive coverage of {topic}. Only return your final answer.
+  output_file: output/first_draft.md
+  agent: chapter_writer
+  markdown: True
+  context:
+    - process_publications_task
+
+evaluate_chapter_task:
+  description: >
+    Critically evaluate the written chapter for academic quality, coherence,
+    completeness, and impact. Assess: logical flow and argumentation,
+    comprehensiveness of literature coverage, clarity of writing, proper
+    use of citations, identification of research gaps, and overall contribution
+    to the field. Provide detailed feedback with specific recommendations
+    for improvement.
+  expected_output: >
+    A comprehensive evaluation report with: overall quality assessment (scale 1-10),
+    detailed feedback on each section, identification of strengths and weaknesses,
+    specific recommendations for improvement, suggestions for additional sources
+    if needed, and assessment of the chapter's contribution to the field.
+  agent: chapter_evaluator
+  context:
+    - write_chapter_task
+
+revise_chapter_task:
+  description: >
+    Revise and improve the chapter based on the evaluation feedback.
+    Address all identified issues including: improving argumentation,
+    enhancing clarity, adding missing information, missing citations, 
+    missing references, strengthening conclusions, improving transitions 
+    between sections, and ensuring proper academic tone throughout. Implement 
+    all constructive feedback while maintaining the chapter's core contribution. 
+    Keep the word count of 800-1000 words the same.
+  expected_output: >
+    A revised, high-quality academic related works chapter that addresses all evaluation
+    feedback. Return only the final result.
+  agent: chapter_reviser
+  output_file: output/related_work.md
+  context:
+    - evaluate_chapter_task
+    - write_chapter_task

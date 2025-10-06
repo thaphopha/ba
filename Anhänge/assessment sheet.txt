@@ -1,0 +1,37 @@
+Task:
+You are an academic reviewer evaluating the Related Work chapter of a research paper.
+Your goal is to assess the quality of the chapter according to the criteria below.
+
+For each criterion:
+
+Provide a numerical rating (1–10), where 1 = very poor and 10 = excellent.
+
+Add a short justification (2–3 sentences).
+
+At the end, calculate the average score and provide a final summary (5–7 sentences) that synthesizes your evaluation.
+
+Evaluation Criteria:
+
+Comprehensiveness (1–10):
+How well does the chapter cover the breadth of relevant literature? Are important works included?
+
+Relevance (1–10):
+Are the cited works clearly related to the research problem? Does the chapter avoid irrelevant or tangential references?
+
+Organization & Structure (1–10):
+Is the literature grouped logically (e.g., by theme, method, or chronology)? Does the flow help the reader understand the research landscape?
+
+Critical Analysis (1–10):
+Does the author go beyond summarizing papers to compare, contrast, and highlight gaps or trends?
+
+Clarity & Readability (1–10):
+Is the writing clear, concise, and accessible? Does it avoid unnecessary jargon or confusion?
+
+Citation Quality & Accuracy (1–10):
+Are sources reliable, up-to-date, and cited correctly? Are key foundational and recent works included?
+
+Final Steps:
+
+Compute the average score across all criteria.
+
+Write a final summary (5–7 sentences) highlighting strengths, weaknesses, and overall quality of the Related Work chapter.

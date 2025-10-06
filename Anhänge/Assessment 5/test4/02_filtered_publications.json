@@ -1,0 +1,190 @@
+```json
+[
+  {
+    "rank": 1,
+    "arxiv_id": "2502_08518v1",
+    "title": "FedMHO: Heterogeneous One-Shot Federated Learning Towards\n  Resource-Constrained Edge Devices",
+    "summary": "Federated Learning (FL) is increasingly adopted in edge computing scenarios,\nwhere a large number of heterogeneous clients operate under constrained or\nsufficient resources. The iterative training process in conventional FL\nintroduces significant computation and communication overhead, which is\nunfriendly for resource-constrained edge devices. One-shot FL has emerged as a\npromising approach to mitigate communication overhead, and model-heterogeneous\nFL solves the problem of diverse computing resources across clients. However,\nexisting methods face challenges in effectively managing model-heterogeneous\none-shot FL, often leading to unsatisfactory global model performance or\nreliance on auxiliary datasets. To address these challenges, we propose a novel\nFL framework named FedMHO, which leverages deep classification models on\nresource-sufficient clients and lightweight generative models on\nresource-constrained devices. On the server side, FedMHO involves a two-stage\nprocess that includes data generation and knowledge fusion. Furthermore, we\nintroduce FedMHO-MD and FedMHO-SD to mitigate the knowledge-forgetting problem\nduring the knowledge fusion stage, and an unsupervised data optimization\nsolution to improve the quality of synthetic samples. Comprehensive experiments\ndemonstrate the effectiveness of our methods, as they outperform\nstate-of-the-art baselines in various experimental setups.",
+    "authors": [
+      "Dezhong Yao",
+      "Yuexin Shi",
+      "Tongtong Liu",
+      "Zhiqiang Xu"
+    ],
+    "published_date": "2025-02-12T15:54:56Z",
+    "pdf_url": "http://arxiv.org/pdf/2502.08518v1",
+    "citation": "Yao, D., Shi, Y., Liu, T., & Xu, Z. (2025). FedMHO: Heterogeneous One-Shot Federated Learning Towards\n  Resource-Constrained Edge Devices. arXiv. https://arxiv.org/abs/2502.08518v1",
+    "year": 2025,
+    "journal": null,
+    "doi": null,
+    "justification": "Highly relevant. Addresses federated learning specifically for resource-constrained edge devices, tackling model heterogeneity and communication overhead. The one-shot approach is particularly suitable for edge environments."
+  },
+  {
+    "rank": 2,
+    "arxiv_id": "2504_00407v2",
+    "title": "AMP4EC: Adaptive Model Partitioning Framework for Efficient Deep\n  Learning Inference in Edge Computing Environments",
+    "summary": "Edge computing facilitates deep learning in resource-constrained\nenvironments, but challenges such as resource heterogeneity and dynamic\nconstraints persist. This paper introduces AMP4EC, an Adaptive Model\nPartitioning framework designed to optimize deep learning inference in edge\nenvironments through real-time resource monitoring, dynamic model partitioning,\nand adaptive task scheduling. AMP4EC features a resource-aware model\npartitioner that splits deep learning models based on device capabilities, a\ntask scheduler that ensures efficient load balancing using a weighted scoring\nmechanism, and a Docker-based deployment environment for validation.\nExperimental results show up to a 78% reduction in latency and a 414%\nimprovement in throughput compared to baseline methods. The framework achieves\nconsistent performance with low scheduling overhead across varying resource\nprofiles, demonstrating adaptability in high-resource (1 CPU, 1GB RAM) and\nlow-resource (0.4 CPU, 512MB RAM) scenarios. These results highlight AMP4EC's\nscalability, efficiency, and robustness for real-world edge deployments,\naddressing the critical need for efficient distributed inference in dynamic,\nresource-constrained environments.",
+    "authors": [
+      "Guilin Zhang",
+      "Wulan Guo",
+      "Ziqi Tan",
+      "Hailong Jiang"
+    ],
+    "published_date": "2025-04-01T04:08:37Z",
+    "pdf_url": "http://arxiv.org/pdf/2504.00407v2",
+    "citation": "Zhang, G., Guo, W., Tan, Z., & Jiang, H. (2025). AMP4EC: Adaptive Model Partitioning Framework for Efficient Deep\n  Learning Inference in Edge Computing Environments. arXiv. https://arxiv.org/abs/2504.00407v2",
+    "year": 2025,
+    "journal": null,
+    "doi": null,
+    "justification": "Highly relevant. Focuses on adaptive model partitioning for efficient deep learning inference in resource-constrained edge environments. Addresses resource heterogeneity and dynamic constraints, which are key challenges in edge computing."
+  },
+  {
+    "rank": 3,
+    "arxiv_id": "2502_06493v1",
+    "title": "EdgeMLBalancer: A Self-Adaptive Approach for Dynamic Model Switching on\n  Resource-Constrained Edge Devices",
+    "summary": "The widespread adoption of machine learning on edge devices, such as mobile\nphones, laptops, IoT devices, etc., has enabled real-time AI applications in\nresource-constrained environments. Existing solutions for managing\ncomputational resources often focus narrowly on accuracy or energy efficiency,\nfailing to adapt dynamically to varying workloads. Furthermore, the existing\nsystem lack robust mechanisms to adaptively balance CPU utilization, leading to\ninefficiencies in resource-constrained scenarios like real-time traffic\nmonitoring. To address these limitations, we propose a self-adaptive approach\nthat optimizes CPU utilization and resource management on edge devices. Our\napproach, EdgeMLBalancer balances between models through dynamic switching,\nguided by real-time CPU usage monitoring across processor cores. Tested on\nreal-time traffic data, the approach adapts object detection models based on\nCPU usage, ensuring efficient resource utilization. The approach leverages\nepsilon-greedy strategy which promotes fairness and prevents resource\nstarvation, maintaining system robustness. The results of our evaluation\ndemonstrate significant improvements by balancing computational efficiency and\naccuracy, highlighting the approach's ability to adapt seamlessly to varying\nworkloads. This work lays the groundwork for further advancements in\nself-adaptation for resource-constrained environments.",
+    "authors": [
+      "Akhila Matathammal",
+      "Kriti Gupta",
+      "Larissa Lavanya",
+      "Ananya Vishal Halgatti",
+      "Priyanshi Gupta",
+      "Karthik Vaidhyanathan"
+    ],
+    "published_date": "2025-02-10T14:11:29Z",
+    "pdf_url": "http://arxiv.org/pdf/2502.06493v1",
+    "citation": "Matathammal, A., Gupta, K., Lavanya, L., Halgatti, A. V., Gupta, P., & Vaidhyanathan, K. (2025). EdgeMLBalancer: A Self-Adaptive Approach for Dynamic Model Switching on\n  Resource-Constrained Edge Devices. arXiv. https://arxiv.org/abs/2502.06493v1",
+    "year": 2025,
+    "journal": null,
+    "doi": null,
+    "justification": "Highly relevant. Presents a self-adaptive approach for dynamic model switching on resource-constrained edge devices, focusing on optimizing CPU utilization and adapting to varying workloads. Addresses a critical need for efficient resource management in edge environments."
+  },
+  {
+    "rank": 4,
+    "arxiv_id": "2409_15973v1",
+    "title": "Edge-device Collaborative Computing for Multi-view Classification",
+    "summary": "Motivated by the proliferation of Internet-of-Thing (IoT) devices and the\nrapid advances in the field of deep learning, there is a growing interest in\npushing deep learning computations, conventionally handled by the cloud, to the\nedge of the network to deliver faster responses to end users, reduce bandwidth\nconsumption to the cloud, and address privacy concerns. However, to fully\nrealize deep learning at the edge, two main challenges still need to be\naddressed: (i) how to meet the high resource requirements of deep learning on\nresource-constrained devices, and (ii) how to leverage the availability of\nmultiple streams of spatially correlated data, to increase the effectiveness of\ndeep learning and improve application-level performance. To address the above\nchallenges, we explore collaborative inference at the edge, in which edge nodes\nand end devices share correlated data and the inference computational burden by\nleveraging different ways to split computation and fuse data. Besides\ntraditional centralized and distributed schemes for edge-end device\ncollaborative inference, we introduce selective schemes that decrease bandwidth\nresource consumption by effectively reducing data redundancy. As a reference\nscenario, we focus on multi-view classification in a networked system in which\nsensing nodes can capture overlapping fields of view. The proposed schemes are\ncompared in terms of accuracy, computational expenditure at the nodes,\ncommunication overhead, inference latency, robustness, and noise sensitivity.\nExperimental results highlight that selective collaborative schemes can achieve\ndifferent trade-offs between the above performance metrics, with some of them\nbringing substantial communication savings (from 18% to 74% of the transmitted\ndata with respect to centralized inference) while still keeping the inference\naccuracy well above 90%.",
+    "authors": [
+      "Marco Palena",
+      "Tania Cerquitelli",
+      "Carla Fabiana Chiasserini"
+    ],
+    "published_date": "2024-09-24T11:07:33Z",
+    "pdf_url": "http://arxiv.org/pdf/2409.15973v1",
+    "citation": "Palena, M., Cerquitelli, T., & Chiasserini, C. F. (2024). Edge-device Collaborative Computing for Multi-view Classification. arXiv. https://arxiv.org/abs/2409.15973v1",
+    "year": 2024,
+    "journal": null,
+    "doi": null,
+    "justification": "Relevant. Explores collaborative inference at the edge to address resource constraints and leverage spatially correlated data. The focus on multi-view classification and selective schemes for reducing bandwidth consumption is valuable."
+  },
+  {
+    "rank": 5,
+    "arxiv_id": "2507_04586v1",
+    "title": "A Lightweight Deep Learning Model for Automatic Modulation\n  Classification using Dual Path Deep Residual Shrinkage Network",
+    "summary": "Efficient spectrum utilization is critical to meeting the growing data\ndemands of modern wireless communication networks. Automatic Modulation\nClassification (AMC) plays a key role in enhancing spectrum efficiency by\naccurately identifying modulation schemes in received signals-an essential\ncapability for dynamic spectrum allocation and interference mitigation,\nparticularly in cognitive radio (CR) systems. With the increasing deployment of\nsmart edge devices, such as IoT nodes with limited computational and memory\nresources, there is a pressing need for lightweight AMC models that balance low\ncomplexity with high classification accuracy. This paper proposes a\nlow-complexity, lightweight deep learning (DL) AMC model optimized for\nresource-constrained edge devices. We introduce a dual-path deep residual\nshrinkage network (DP-DRSN) with Garrote thresholding for effective signal\ndenoising and design a compact hybrid CNN-LSTM architecture comprising only\n27,000 training parameters. The proposed model achieves average classification\naccuracies of 61.20%, 63.78%, and 62.13% on the RML2016.10a, RML2016.10b, and\nRML2018.01a datasets, respectively demonstrating a strong balance between model\nefficiency and classification performance. These results underscore the model's\npotential for enabling accurate and efficient AMC on-edge devices with limited\nresources.",
+    "authors": [
+      "Prakash Suman",
+      "Yanzhen Qu"
+    ],
+    "published_date": "2025-07-07T00:37:54Z",
+    "pdf_url": "http://arxiv.org/pdf/2507.04586v1",
+    "citation": "Suman, P. & Qu, Y. (2025). A Lightweight Deep Learning Model for Automatic Modulation\n  Classification using Dual Path Deep Residual Shrinkage Network. arXiv. https://arxiv.org/abs/2507.04586v1",
+    "year": 2025,
+    "journal": null,
+    "doi": null,
+    "justification": "Relevant. Presents a lightweight deep learning model for automatic modulation classification, specifically designed for resource-constrained edge devices. The focus on low complexity and high classification accuracy is crucial for edge deployment."
+  },
+  {
+    "rank": 6,
+    "arxiv_id": "2206_07269v2",
+    "title": "Resource-Constrained Edge AI with Early Exit Prediction",
+    "summary": "By leveraging the data sample diversity, the early-exit network recently\nemerges as a prominent neural network architecture to accelerate the deep\nlearning inference process. However, intermediate classifiers of the early\nexits introduce additional computation overhead, which is unfavorable for\nresource-constrained edge artificial intelligence (AI). In this paper, we\npropose an early exit prediction mechanism to reduce the on-device computation\noverhead in a device-edge co-inference system supported by early-exit networks.\nSpecifically, we design a low-complexity module, namely the Exit Predictor, to\nguide some distinctly \"hard\" samples to bypass the computation of the early\nexits. Besides, considering the varying communication bandwidth, we extend the\nearly exit prediction mechanism for latency-aware edge inference, which adapts\nthe prediction thresholds of the Exit Predictor and the confidence thresholds\nof the early-exit network via a few simple regression models. Extensive\nexperiment results demonstrate the effectiveness of the Exit Predictor in\nachieving a better tradeoff between accuracy and on-device computation overhead\nfor early-exit networks. Besides, compared with the baseline methods, the\nproposed method for latency-aware edge inference attains higher inference\naccuracy under different bandwidth conditions.",
+    "authors": [
+      "Rongkang Dong",
+      "Yuyi Mao",
+      "Jun Zhang"
+    ],
+    "published_date": "2022-06-15T03:14:21Z",
+    "pdf_url": "http://arxiv.org/pdf/2206.07269v2",
+    "citation": "Dong, R., Mao, Y., & Zhang, J. (2022). Resource-Constrained Edge AI with Early Exit Prediction. arXiv. https://arxiv.org/abs/2206.07269v2",
+    "year": 2022,
+    "journal": null,
+    "doi": null,
+    "justification": "Relevant. Focuses on early exit prediction to reduce computation overhead in resource-constrained edge AI systems. The early exit strategy is a valuable technique for optimizing deep learning inference on edge devices."
+  },
+  {
+    "rank": 7,
+    "arxiv_id": "2310_06845v1",
+    "title": "RobustEdge: Low Power Adversarial Detection for Cloud-Edge Systems",
+    "summary": "In practical cloud-edge scenarios, where a resource constrained edge performs\ndata acquisition and a cloud system (having sufficient resources) performs\ninference tasks with a deep neural network (DNN), adversarial robustness is\ncritical for reliability and ubiquitous deployment. Adversarial detection is a\nprime adversarial defence technique used in prior literature. However, in prior\ndetection works, the detector is attached to the classifier model and both\ndetector and classifier work in tandem to perform adversarial detection that\nrequires a high computational overhead which is not available at the low-power\nedge. Therefore, prior works can only perform adversarial detection at the\ncloud and not at the edge. This means that in case of adversarial attacks, the\nunfavourable adversarial samples must be communicated to the cloud which leads\nto energy wastage at the edge device. Therefore, a low-power edge-friendly\nadversarial detection method is required to improve the energy efficiency of\nthe edge and robustness of the cloud-based classifier. To this end, RobustEdge\nproposes Quantization-enabled Energy Separation (QES) training with \"early\ndetection and exit\" to perform edge-based low cost adversarial detection. The\nQES-trained detector implemented at the edge blocks adversarial data\ntransmission to the classifier model, thereby improving adversarial robustness\nand energy-efficiency of the Cloud-Edge system.",
+    "authors": [
+      "Abhishek Moitra",
+      "Abhiroop Bhattacharjee",
+      "Youngeun Kim",
+      "Priyadarshini Panda"
+    ],
+    "published_date": "2023-09-05T13:51:28Z",
+    "pdf_url": "http://arxiv.org/pdf/2310.06845v1",
+    "citation": "Moitra, A., Bhattacharjee, A., Kim, Y., & Panda, P. (2023). RobustEdge: Low Power Adversarial Detection for Cloud-Edge Systems. arXiv. https://arxiv.org/abs/2310.06845v1",
+    "year": 2023,
+    "journal": null,
+    "doi": null,
+    "justification": "Relevant. Addresses adversarial robustness in cloud-edge systems, proposing a low-power adversarial detection method for resource-constrained edges. Protecting edge devices from adversarial attacks is crucial for reliable deployment."
+  },
+  {
+    "rank": 8,
+    "arxiv_id": "2501_11557v1",
+    "title": "Secure Resource Allocation via Constrained Deep Reinforcement Learning",
+    "summary": "The proliferation of Internet of Things (IoT) devices and the advent of 6G\ntechnologies have introduced computationally intensive tasks that often surpass\nthe processing capabilities of user devices. Efficient and secure resource\nallocation in serverless multi-cloud edge computing environments is essential\nfor supporting these demands and advancing distributed computing. However,\nexisting solutions frequently struggle with the complexity of multi-cloud\ninfrastructures, robust security integration, and effective application of\ntraditional deep reinforcement learning (DRL) techniques under system\nconstraints. To address these challenges, we present SARMTO, a novel framework\nthat integrates an action-constrained DRL model. SARMTO dynamically balances\nresource allocation, task offloading, security, and performance by utilizing a\nMarkov decision process formulation, an adaptive security mechanism, and\nsophisticated optimization techniques. Extensive simulations across varying\nscenarios, including different task loads, data sizes, and MEC capacities, show\nthat SARMTO consistently outperforms five baseline approaches, achieving up to\na 40% reduction in system costs and a 41.5% improvement in energy efficiency\nover state-of-the-art methods. These enhancements highlight SARMTO's potential\nto revolutionize resource management in intricate distributed computing\nenvironments, opening the door to more efficient and secure IoT and edge\ncomputing applications.",
+    "authors": [
+      "Jianfei Sun",
+      "Qiang Gao",
+      "Cong Wu",
+      "Yuxian Li",
+      "Jiacheng Wang",
+      "Dusit Niyato"
+    ],
+    "published_date": "2025-01-20T15:52:43Z",
+    "pdf_url": "http://arxiv.org/pdf/2501.11557v1",
+    "citation": "Sun, J., Gao, Q., Wu, C., Li, Y., Wang, J., & Niyato, D. (2025). Secure Resource Allocation via Constrained Deep Reinforcement Learning. arXiv. https://arxiv.org/abs/2501.11557v1",
+    "year": 2025,
+    "journal": null,
+    "doi": null,
+    "justification": "Relevant. Focuses on secure resource allocation in multi-cloud edge computing environments using constrained deep reinforcement learning. Addresses the challenge of efficiently managing resources in complex edge infrastructures while considering security."
+  },
+  {
+    "rank": 9,
+    "arxiv_id": "2001_06901v1",
+    "title": "Modeling of Deep Neural Network (DNN) Placement and Inference in Edge\n  Computing",
+    "summary": "With the edge computing becoming an increasingly adopted concept in system\narchitectures, it is expected its utilization will be additionally heightened\nwhen combined with deep learning (DL) techniques. The idea behind integrating\ndemanding processing algorithms in Internet of Things (IoT) and edge devices,\nsuch as Deep Neural Network (DNN), has in large measure benefited from the\ndevelopment of edge computing hardware, as well as from adapting the algorithms\nfor use in resource constrained IoT devices. Surprisingly, there are no models\nyet to optimally place and use machine learning in edge computing. In this\npaper, we propose the first model of optimal placement of Deep Neural Network\n(DNN) Placement and Inference in edge computing. We present a mathematical\nformulation to the DNN Model Variant Selection and Placement (MVSP) problem\nconsidering the inference latency of different model-variants, communication\nlatency between nodes, and utilization cost of edge computing nodes. We\nevaluate our model numerically, and show that for low load increasing model\nco-location decreases the average latency by 33% of millisecond-scale per\nrequest, and for high load, by 21%.",
+    "authors": [
+      "Mounir Bensalem",
+      "Jasenka Dizdarević",
+      "Admela Jukan"
+    ],
+    "published_date": "2020-01-19T20:51:37Z",
+    "pdf_url": "http://arxiv.org/pdf/2001.06901v1",
+    "citation": "Bensalem, M., Dizdarević, J., & Jukan, A. (2020). Modeling of Deep Neural Network (DNN) Placement and Inference in Edge\n  Computing. arXiv. https://arxiv.org/abs/2001.06901v1",
+    "year": 2020,
+    "journal": null,
+    "doi": null,
+    "justification": "Relevant. Presents a mathematical model for optimal placement of DNNs in edge computing, considering inference latency, communication latency, and utilization cost. While older, it provides a foundational approach to DNN placement in edge environments."
+  },
+  {
+    "rank": 10,
+    "arxiv_id": "2210_03204v1",
+    "title": "Enabling Deep Learning on Edge Devices",
+    "summary": "Deep neural networks (DNNs) have succeeded in many different perception\ntasks, e.g., computer vision, natural language processing, reinforcement\nlearning, etc. The high-performed DNNs heavily rely on intensive resource\nconsumption. For example, training a DNN requires high dynamic memory, a\nlarge-scale dataset, and a large number of computations (a long training time);\neven inference with a DNN also demands a large amount of static storage,\ncomputations (a long inference time), and energy. Therefore, state-of-the-art\nDNNs are often deployed on a cloud server with a large number of\nsuper-computers, a high-bandwidth communication bus, a shared storage\ninfrastructure, and a high power supplement.\n  Recently, some new emerging intelligent applications, e.g., AR/VR, mobile\nassistants, Internet of Things, require us to deploy DNNs on\nresource-constrained edge devices. Compare to a cloud server, edge devices\noften have a rather small amount of resources. To deploy DNNs on edge devices,\nwe need to reduce the size of DNNs, i.e., we target a better trade-off between\nresource consumption and model accuracy.\n  In this dissertation, we studied four edge intelligence scenarios, i.e.,\nInference on Edge Devices, Adaptation on Edge Devices, Learning on Edge\nDevices, and Edge-Server Systems, and developed different methodologies to\nenable deep learning in each scenario. Since current DNNs are often\nover-parameterized, our goal is to find and reduce the redundancy of the DNNs\nin each scenario.",
+    "authors": [
+      "Zhongnan Qu"
+    ],
+    "published_date": "2022-10-06T20:52:57Z",
+    "pdf_url": "http://arxiv.org/pdf/2210.03204v1",
+    "citation": "Qu, Z. (2022). Enabling Deep Learning on Edge Devices. arXiv. https://doi.org/10.3929/ethz-b-000574442",
+    "year": 2022,
+    "journal": null,
+    "doi": "10.3929/ethz-b-000574442",
+    "justification": "Relevant. Provides an overview of enabling deep learning on edge devices, covering inference, adaptation, learning, and edge-server systems. It addresses the need to reduce DNN size and redundancy for edge deployment."
+  }
+]
+```

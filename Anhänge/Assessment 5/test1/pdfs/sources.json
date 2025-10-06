@@ -1,0 +1,610 @@
+{
+  "2504_08999v1.pdf": {
+    "title": "MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context\n  Protocol Servers",
+    "authors": [
+      "Arash Ahmadi",
+      "Sarah Sharif",
+      "Yaser M. Banad"
+    ],
+    "year": 2025,
+    "journal": null,
+    "doi": null,
+    "arxiv_id": "2504_08999v1",
+    "pdf_url": "http://arxiv.org/pdf/2504.08999v1",
+    "citation": "Ahmadi, A., Sharif, S., & Banad, Y. M. (2025). MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context\n  Protocol Servers. arXiv. https://arxiv.org/abs/2504.08999v1",
+    "screening_result": "None"
+  },
+  "2508_13220v1.pdf": {
+    "title": "MCPSecBench: A Systematic Security Benchmark and Playground for Testing\n  Model Context Protocols",
+    "authors": [
+      "Yixuan Yang",
+      "Daoyuan Wu",
+      "Yufan Chen"
+    ],
+    "year": 2025,
+    "journal": null,
+    "doi": null,
+    "arxiv_id": "2508_13220v1",
+    "pdf_url": "http://arxiv.org/pdf/2508.13220v1",
+    "citation": "Yang, Y., Wu, D., & Chen, Y. (2025). MCPSecBench: A Systematic Security Benchmark and Playground for Testing\n  Model Context Protocols. arXiv. https://arxiv.org/abs/2508.13220v1",
+    "screening_result": "None"
+  },
+  "2508_19239v1.pdf": {
+    "title": "Model Context Protocols in Adaptive Transport Systems: A Survey",
+    "authors": [
+      "Gaurab Chhetri",
+      "Shriyank Somvanshi",
+      "Md Monzurul Islam",
+      "Shamyo Brotee",
+      "Mahmuda Sultana Mimi",
+      "Dipti Koirala",
+      "Biplov Pandey",
+      "Subasish Das"
+    ],
+    "year": 2025,
+    "journal": null,
+    "doi": null,
+    "arxiv_id": "2508_19239v1",
+    "pdf_url": "http://arxiv.org/pdf/2508.19239v1",
+    "citation": "Chhetri, G., Somvanshi, S., Islam, M. M., Brotee, S., Mimi, M. S., Koirala, D., Pandey, B., & Das, S. (2025). Model Context Protocols in Adaptive Transport Systems: A Survey. arXiv. https://arxiv.org/abs/2508.19239v1",
+    "screening_result": "None"
+  },
+  "2508_07575v1.pdf": {
+    "title": "MCPToolBench++: A Large Scale AI Agent Model Context Protocol MCP Tool\n  Use Benchmark",
+    "authors": [
+      "Shiqing Fan",
+      "Xichen Ding",
+      "Liang Zhang",
+      "Linjian Mo"
+    ],
+    "year": 2025,
+    "journal": null,
+    "doi": null,
+    "arxiv_id": "2508_07575v1",
+    "pdf_url": "http://arxiv.org/pdf/2508.07575v1",
+    "citation": "Fan, S., Ding, X., Zhang, L., & Mo, L. (2025). MCPToolBench++: A Large Scale AI Agent Model Context Protocol MCP Tool\n  Use Benchmark. arXiv. https://arxiv.org/abs/2508.07575v1",
+    "screening_result": "None"
+  },
+  "2504_12757v2.pdf": {
+    "title": "MCP Guardian: A Security-First Layer for Safeguarding MCP-Based AI\n  System",
+    "authors": [
+      "Sonu Kumar",
+      "Anubhav Girdhar",
+      "Ritesh Patil",
+      "Divyansh Tripathi"
+    ],
+    "year": 2025,
+    "journal": null,
+    "doi": null,
+    "arxiv_id": "2504_12757v2",
+    "pdf_url": "http://arxiv.org/pdf/2504.12757v2",
+    "citation": "Kumar, S., Girdhar, A., Patil, R., & Tripathi, D. (2025). MCP Guardian: A Security-First Layer for Safeguarding MCP-Based AI\n  System. arXiv. https://arxiv.org/abs/2504.12757v2",
+    "screening_result": "None"
+  },
+  "2504_03767v2.pdf": {
+    "title": "MCP Safety Audit: LLMs with the Model Context Protocol Allow Major\n  Security Exploits",
+    "authors": [
+      "Brandon Radosevich",
+      "John Halloran"
+    ],
+    "year": 2025,
+    "journal": null,
+    "doi": null,
+    "arxiv_id": "2504_03767v2",
+    "pdf_url": "http://arxiv.org/pdf/2504.03767v2",
+    "citation": "Radosevich, B. & Halloran, J. (2025). MCP Safety Audit: LLMs with the Model Context Protocol Allow Major\n  Security Exploits. arXiv. https://arxiv.org/abs/2504.03767v2",
+    "screening_result": "None"
+  },
+  "2504_19997v1.pdf": {
+    "title": "Simplified and Secure MCP Gateways for Enterprise AI Integration",
+    "authors": [
+      "Ivo Brett"
+    ],
+    "year": 2025,
+    "journal": null,
+    "doi": null,
+    "arxiv_id": "2504_19997v1",
+    "pdf_url": "http://arxiv.org/pdf/2504.19997v1",
+    "citation": "Brett, I. (2025). Simplified and Secure MCP Gateways for Enterprise AI Integration. arXiv. https://arxiv.org/abs/2504.19997v1",
+    "screening_result": "None"
+  },
+  "2506_13538v4.pdf": {
+    "title": "Model Context Protocol (MCP) at First Glance: Studying the Security and\n  Maintainability of MCP Servers",
+    "authors": [
+      "Mohammed Mehedi Hasan",
+      "Hao Li",
+      "Emad Fallahzadeh",
+      "Gopi Krishnan Rajbahadur",
+      "Bram Adams",
+      "Ahmed E. Hassan"
+    ],
+    "year": 2025,
+    "journal": null,
+    "doi": null,
+    "arxiv_id": "2506_13538v4",
+    "pdf_url": "http://arxiv.org/pdf/2506.13538v4",
+    "citation": "Hasan, M. M., Li, H., Fallahzadeh, E., Rajbahadur, G. K., Adams, B., & Hassan, A. E. (2025). Model Context Protocol (MCP) at First Glance: Studying the Security and\n  Maintainability of MCP Servers. arXiv. https://arxiv.org/abs/2506.13538v4",
+    "screening_result": "None"
+  },
+  "2503_23278v2.pdf": {
+    "title": "Model Context Protocol (MCP): Landscape, Security Threats, and Future\n  Research Directions",
+    "authors": [
+      "Xinyi Hou",
+      "Yanjie Zhao",
+      "Shenao Wang",
+      "Haoyu Wang"
+    ],
+    "year": 2025,
+    "journal": null,
+    "doi": null,
+    "arxiv_id": "2503_23278v2",
+    "pdf_url": "http://arxiv.org/pdf/2503.23278v2",
+    "citation": "Hou, X., Zhao, Y., Wang, S., & Wang, H. (2025). Model Context Protocol (MCP): Landscape, Security Threats, and Future\n  Research Directions. arXiv. https://arxiv.org/abs/2503.23278v2",
+    "screening_result": "None"
+  },
+  "2506_13666v1.pdf": {
+    "title": "We Should Identify and Mitigate Third-Party Safety Risks in MCP-Powered\n  Agent Systems",
+    "authors": [
+      "Junfeng Fang",
+      "Zijun Yao",
+      "Ruipeng Wang",
+      "Haokai Ma",
+      "Xiang Wang",
+      "Tat-Seng Chua"
+    ],
+    "year": 2025,
+    "journal": null,
+    "doi": null,
+    "arxiv_id": "2506_13666v1",
+    "pdf_url": "http://arxiv.org/pdf/2506.13666v1",
+    "citation": "Fang, J., Yao, Z., Wang, R., Ma, H., Wang, X., & Chua, T. (2025). We Should Identify and Mitigate Third-Party Safety Risks in MCP-Powered\n  Agent Systems. arXiv. https://arxiv.org/abs/2506.13666v1",
+    "screening_result": "None"
+  },
+  "2507_06250v1.pdf": {
+    "title": "We Urgently Need Privilege Management in MCP: A Measurement of API Usage\n  in MCP Ecosystems",
+    "authors": [
+      "Zhihao Li",
+      "Kun Li",
+      "Boyang Ma",
+      "Minghui Xu",
+      "Yue Zhang",
+      "Xiuzhen Cheng"
+    ],
+    "year": 2025,
+    "journal": null,
+    "doi": null,
+    "arxiv_id": "2507_06250v1",
+    "pdf_url": "http://arxiv.org/pdf/2507.06250v1",
+    "citation": "Li, Z., Li, K., Ma, B., Xu, M., Zhang, Y., & Cheng, X. (2025). We Urgently Need Privilege Management in MCP: A Measurement of API Usage\n  in MCP Ecosystems. arXiv. https://arxiv.org/abs/2507.06250v1",
+    "screening_result": "None"
+  },
+  "2509_24272v1.pdf": {
+    "title": "When MCP Servers Attack: Taxonomy, Feasibility, and Mitigation",
+    "authors": [
+      "Weibo Zhao",
+      "Jiahao Liu",
+      "Bonan Ruan",
+      "Shaofei Li",
+      "Zhenkai Liang"
+    ],
+    "year": 2025,
+    "journal": null,
+    "doi": null,
+    "arxiv_id": "2509_24272v1",
+    "pdf_url": "http://arxiv.org/pdf/2509.24272v1",
+    "citation": "Zhao, W., Liu, J., Ruan, B., Li, S., & Liang, Z. (2025). When MCP Servers Attack: Taxonomy, Feasibility, and Mitigation. arXiv. https://arxiv.org/abs/2509.24272v1",
+    "screening_result": "None"
+  },
+  "2508_10991v2.pdf": {
+    "title": "MCP-Guard: A Defense Framework for Model Context Protocol Integrity in\n  Large Language Model Applications",
+    "authors": [
+      "Wenpeng Xing",
+      "Zhonghao Qi",
+      "Yupeng Qin",
+      "Yilin Li",
+      "Caini Chang",
+      "Jiahui Yu",
+      "Changting Lin",
+      "Zhenzhen Xie",
+      "Meng Han"
+    ],
+    "year": 2025,
+    "journal": null,
+    "doi": null,
+    "arxiv_id": "2508_10991v2",
+    "pdf_url": "http://arxiv.org/pdf/2508.10991v2",
+    "citation": "Xing, W., Qi, Z., Qin, Y., Li, Y., Chang, C., Yu, J., Lin, C., Xie, Z., & Han, M. (2025). MCP-Guard: A Defense Framework for Model Context Protocol Integrity in\n  Large Language Model Applications. arXiv. https://arxiv.org/abs/2508.10991v2",
+    "screening_result": "None"
+  },
+  "2508_12538v1.pdf": {
+    "title": "Systematic Analysis of MCP Security",
+    "authors": [
+      "Yongjian Guo",
+      "Puzhuo Liu",
+      "Wanlun Ma",
+      "Zehang Deng",
+      "Xiaogang Zhu",
+      "Peng Di",
+      "Xi Xiao",
+      "Sheng Wen"
+    ],
+    "year": 2025,
+    "journal": null,
+    "doi": null,
+    "arxiv_id": "2508_12538v1",
+    "pdf_url": "http://arxiv.org/pdf/2508.12538v1",
+    "citation": "Guo, Y., Liu, P., Ma, W., Deng, Z., Zhu, X., Di, P., Xiao, X., & Wen, S. (2025). Systematic Analysis of MCP Security. arXiv. https://arxiv.org/abs/2508.12538v1",
+    "screening_result": "None"
+  },
+  "2505_11154v1.pdf": {
+    "title": "MPMA: Preference Manipulation Attack Against Model Context Protocol",
+    "authors": [
+      "Zihan Wang",
+      "Hongwei Li",
+      "Rui Zhang",
+      "Yu Liu",
+      "Wenbo Jiang",
+      "Wenshu Fan",
+      "Qingchuan Zhao",
+      "Guowen Xu"
+    ],
+    "year": 2025,
+    "journal": null,
+    "doi": null,
+    "arxiv_id": "2505_11154v1",
+    "pdf_url": "http://arxiv.org/pdf/2505.11154v1",
+    "citation": "Wang, Z., Li, H., Zhang, R., Liu, Y., Jiang, W., Fan, W., Zhao, Q., & Xu, G. (2025). MPMA: Preference Manipulation Attack Against Model Context Protocol. arXiv. https://arxiv.org/abs/2505.11154v1",
+    "screening_result": "None"
+  },
+  "2506_02040v4.pdf": {
+    "title": "Beyond the Protocol: Unveiling Attack Vectors in the Model Context\n  Protocol (MCP) Ecosystem",
+    "authors": [
+      "Hao Song",
+      "Yiming Shen",
+      "Wenxuan Luo",
+      "Leixin Guo",
+      "Ting Chen",
+      "Jiashui Wang",
+      "Beibei Li",
+      "Xiaosong Zhang",
+      "Jiachi Chen"
+    ],
+    "year": 2025,
+    "journal": null,
+    "doi": null,
+    "arxiv_id": "2506_02040v4",
+    "pdf_url": "http://arxiv.org/pdf/2506.02040v4",
+    "citation": "Song, H., Shen, Y., Luo, W., Guo, L., Chen, T., Wang, J., Li, B., Zhang, X., & Chen, J. (2025). Beyond the Protocol: Unveiling Attack Vectors in the Model Context\n  Protocol (MCP) Ecosystem. arXiv. https://arxiv.org/abs/2506.02040v4",
+    "screening_result": "None"
+  },
+  "2509_09734v1.pdf": {
+    "title": "MCP-AgentBench: Evaluating Real-World Language Agent Performance with\n  MCP-Mediated Tools",
+    "authors": [
+      "Zikang Guo",
+      "Benfeng Xu",
+      "Chiwei Zhu",
+      "Wentao Hong",
+      "Xiaorui Wang",
+      "Zhendong Mao"
+    ],
+    "year": 2025,
+    "journal": null,
+    "doi": null,
+    "arxiv_id": "2509_09734v1",
+    "pdf_url": "http://arxiv.org/pdf/2509.09734v1",
+    "citation": "Guo, Z., Xu, B., Zhu, C., Hong, W., Wang, X., & Mao, Z. (2025). MCP-AgentBench: Evaluating Real-World Language Agent Performance with\n  MCP-Mediated Tools. arXiv. https://arxiv.org/abs/2509.09734v1",
+    "screening_result": "None"
+  },
+  "2504_08623v2.pdf": {
+    "title": "Enterprise-Grade Security for the Model Context Protocol (MCP):\n  Frameworks and Mitigation Strategies",
+    "authors": [
+      "Vineeth Sai Narajala",
+      "Idan Habler"
+    ],
+    "year": 2025,
+    "journal": null,
+    "doi": null,
+    "arxiv_id": "2504_08623v2",
+    "pdf_url": "http://arxiv.org/pdf/2504.08623v2",
+    "citation": "Narajala, V. S. & Habler, I. (2025). Enterprise-Grade Security for the Model Context Protocol (MCP):\n  Frameworks and Mitigation Strategies. arXiv. https://arxiv.org/abs/2504.08623v2",
+    "screening_result": "None"
+  },
+  "2506_23474v1.pdf": {
+    "title": "A Large-Scale Evolvable Dataset for Model Context Protocol Ecosystem and\n  Security Analysis",
+    "authors": [
+      "Zhiwei Lin",
+      "Bonan Ruan",
+      "Jiahao Liu",
+      "Weibo Zhao"
+    ],
+    "year": 2025,
+    "journal": null,
+    "doi": null,
+    "arxiv_id": "2506_23474v1",
+    "pdf_url": "http://arxiv.org/pdf/2506.23474v1",
+    "citation": "Lin, Z., Ruan, B., Liu, J., & Zhao, W. (2025). A Large-Scale Evolvable Dataset for Model Context Protocol Ecosystem and\n  Security Analysis. arXiv. https://arxiv.org/abs/2506.23474v1",
+    "screening_result": "None"
+  },
+  "2510_01260v1.pdf": {
+    "title": "IoT-MCP: Bridging LLMs and IoT Systems Through Model Context Protocol",
+    "authors": [
+      "Ningyuan Yang",
+      "Guanliang Lyu",
+      "Mingchen Ma",
+      "Yiyi Lu",
+      "Yiming Li",
+      "Zhihui Gao",
+      "Hancheng Ye",
+      "Jianyi Zhang",
+      "Tingjun Chen",
+      "Yiran Chen"
+    ],
+    "year": 2025,
+    "journal": null,
+    "doi": null,
+    "arxiv_id": "2510_01260v1",
+    "pdf_url": "http://arxiv.org/pdf/2510.01260v1",
+    "citation": "Yang, N., Lyu, G., Ma, M., Lu, Y., Li, Y., Gao, Z., Ye, H., Zhang, J., Chen, T., & Chen, Y. (2025). IoT-MCP: Bridging LLMs and IoT Systems Through Model Context Protocol. arXiv. https://arxiv.org/abs/2510.01260v1",
+    "screening_result": "None"
+  },
+  "10.1038_s41540-024-00478-7.pdf": {
+    "title": "Biopsy location and tumor-associated macrophages in predicting malignant glioma recurrence using an in-silico model",
+    "authors": [
+      "Pejman Shojaee",
+      "Edwin Weinholtz",
+      "Nadine S. Schaadt",
+      "Friedrich Feuerhake",
+      "Haralampos Hatzikirou"
+    ],
+    "year": 2025,
+    "journal": "npj Systems Biology and Applications",
+    "doi": "10.1038/s41540-024-00478-7",
+    "arxiv_id": "",
+    "pdf_url": "https://www.nature.com/articles/s41540-024-00478-7.pdf",
+    "citation": "Shojaee, P., Weinholtz, E., Schaadt, N. S., Feuerhake, F., & Hatzikirou, H. (2025). Biopsy location and tumor-associated macrophages in predicting malignant glioma recurrence using an in-silico model. npj Systems Biology and Applications. https://doi.org/10.1038/s41540-024-00478-7 https://www.nature.com/articles/s41540-024-00478-7.pdf",
+    "screening_result": "None"
+  },
+  "10.34660_inf.2019.3.44709.pdf": {
+    "title": "A STUDY OF THE ALUMINA DISTRIBUTION IN THE LAB-SCALE CELL DURING ALUMINUM ELECTROLYSIS",
+    "authors": [
+      "Olga Tkacheva",
+      "\u041f. \u0410. \u0410\u0440\u0445\u0438\u043f\u043e\u0432",
+      "\u0410. \u0412. \u0420\u0443\u0434\u0435\u043d\u043a\u043e"
+    ],
+    "year": 2024,
+    "journal": null,
+    "doi": "10.34660/inf.2019.3.44709",
+    "arxiv_id": "",
+    "pdf_url": "https://doi.org/10.34660/inf.2019.3.44709",
+    "citation": "Tkacheva, O., \u0410\u0440\u0445\u0438\u043f\u043e\u0432, \u041f. \u0410., & \u0420\u0443\u0434\u0435\u043d\u043a\u043e, \u0410. \u0412. (2024). A STUDY OF THE ALUMINA DISTRIBUTION IN THE LAB-SCALE CELL DURING ALUMINUM ELECTROLYSIS. https://doi.org/10.34660/inf.2019.3.44709 https://doi.org/10.34660/inf.2019.3.44709",
+    "screening_result": "None"
+  },
+  "10.34660_inf.2019.3.44693.pdf": {
+    "title": "THE CIRCADIAN RHYTHM OF OXYGEN CONSUMPTION BY THE MYOCARDIUM IN THE ACUTE PERIOD OF SEVERE TRAUMATIC BRAIN INJURY IN CHILDREN",
+    "authors": [
+      "H.N. Muhitdinova",
+      "S.A. Yuldasheva",
+      "M.F.K. Ikromova"
+    ],
+    "year": 2024,
+    "journal": null,
+    "doi": "10.34660/inf.2019.3.44693",
+    "arxiv_id": "",
+    "pdf_url": "https://doi.org/10.34660/inf.2019.3.44693",
+    "citation": "Muhitdinova, H., Yuldasheva, S., & Ikromova, M. (2024). THE CIRCADIAN RHYTHM OF OXYGEN CONSUMPTION BY THE MYOCARDIUM IN THE ACUTE PERIOD OF SEVERE TRAUMATIC BRAIN INJURY IN CHILDREN. https://doi.org/10.34660/inf.2019.3.44693 https://doi.org/10.34660/inf.2019.3.44693",
+    "screening_result": "None"
+  },
+  "10.34660_inf.2019.3.44691.pdf": {
+    "title": "COMBINED PALLIATIVE METHOD OF REVASCULARIZATION OF THE LOWER EXTREMITIES IN PATIENTS WITH PURULENT- NECROTIC COMPLICATIONS OF CHRONIC ISCHEMIA",
+    "authors": [
+      "A Ia Korovin",
+      "\u0421. \u0411. \u0411\u0430\u0437\u043b\u043e\u0432",
+      "\u0414. \u0412. \u0422\u0443\u0440\u043a\u0438\u043d"
+    ],
+    "year": 2024,
+    "journal": null,
+    "doi": "10.34660/inf.2019.3.44691",
+    "arxiv_id": "",
+    "pdf_url": "https://doi.org/10.34660/inf.2019.3.44691",
+    "citation": "Korovin, A. I., \u0411\u0430\u0437\u043b\u043e\u0432, \u0421. \u0411., & \u0422\u0443\u0440\u043a\u0438\u043d, \u0414. \u0412. (2024). COMBINED PALLIATIVE METHOD OF REVASCULARIZATION OF THE LOWER EXTREMITIES IN PATIENTS WITH PURULENT- NECROTIC COMPLICATIONS OF CHRONIC ISCHEMIA. https://doi.org/10.34660/inf.2019.3.44691 https://doi.org/10.34660/inf.2019.3.44691",
+    "screening_result": "None"
+  },
+  "10.34660_inf.2019.3.44532.pdf": {
+    "title": "CULTURAL RESOURCES MANAGEMENT OF ALTAI",
+    "authors": [
+      "\u041d.\u0412. \u0425\u0430\u043b\u0438\u043d\u0430",
+      "Nadezhda N. Pivkina"
+    ],
+    "year": 2024,
+    "journal": null,
+    "doi": "10.34660/inf.2019.3.44532",
+    "arxiv_id": "",
+    "pdf_url": "https://doi.org/10.34660/inf.2019.3.44532",
+    "citation": "\u0425\u0430\u043b\u0438\u043d\u0430, \u041d. & Pivkina, N. N. (2024). CULTURAL RESOURCES MANAGEMENT OF ALTAI. https://doi.org/10.34660/inf.2019.3.44532 https://doi.org/10.34660/inf.2019.3.44532",
+    "screening_result": "None"
+  },
+  "10.34660_inf.2019.3.44700.pdf": {
+    "title": "FRACTURE OF THE MULTILAYER COMPOSITION \u201cZRO2 CERAMIC COATING - NIAL BONDING LAYER - TI-6AL-4V SUBSTRATE\u201d DURING THERMAL TEST",
+    "authors": [
+      "S. A. Martynov",
+      "\u041c. \u0421. \u041a\u0430\u0437\u0430\u0447\u0435\u043d\u043e\u043a",
+      "Artem Builuk"
+    ],
+    "year": 2024,
+    "journal": null,
+    "doi": "10.34660/inf.2019.3.44700",
+    "arxiv_id": "",
+    "pdf_url": "https://doi.org/10.34660/inf.2019.3.44700",
+    "citation": "Martynov, S. A., \u041a\u0430\u0437\u0430\u0447\u0435\u043d\u043e\u043a, \u041c. \u0421., & Builuk, A. (2024). FRACTURE OF THE MULTILAYER COMPOSITION \u201cZRO2 CERAMIC COATING - NIAL BONDING LAYER - TI-6AL-4V SUBSTRATE\u201d DURING THERMAL TEST. https://doi.org/10.34660/inf.2019.3.44700 https://doi.org/10.34660/inf.2019.3.44700",
+    "screening_result": "None"
+  },
+  "10.34660_inf.2019.3.44694.pdf": {
+    "title": "COMPARISON OF THE EFFECT OF VARIOUS TREATMENT METHODS ON THE PROTEIN SYNTHESIZING FUNCTION OF THE LIVER ON AN EXPERIMENTAL MODEL OF PEPTIC ULCER BLEEDING",
+    "authors": [
+      "Sh.I. Rahimli"
+    ],
+    "year": 2024,
+    "journal": null,
+    "doi": "10.34660/inf.2019.3.44694",
+    "arxiv_id": "",
+    "pdf_url": "https://doi.org/10.34660/inf.2019.3.44694",
+    "citation": "Rahimli, S. (2024). COMPARISON OF THE EFFECT OF VARIOUS TREATMENT METHODS ON THE PROTEIN SYNTHESIZING FUNCTION OF THE LIVER ON AN EXPERIMENTAL MODEL OF PEPTIC ULCER BLEEDING. https://doi.org/10.34660/inf.2019.3.44694 https://doi.org/10.34660/inf.2019.3.44694",
+    "screening_result": "None"
+  },
+  "10.34660_inf.2019.3.44545.pdf": {
+    "title": "POSSIBILITIES OF HYPERAMMONEMIA CORRECTION IN PATIENTS WITH LYMPHOMAS AGAINST THE BACKGROUND OF CYTOSTATIC THERAPY",
+    "authors": [
+      "\u0413. \u0421. \u0421\u043e\u043b\u0434\u0430\u0442\u043e\u0432\u0430",
+      "\u0422. \u0418. \u041f\u043e\u0441\u043f\u0435\u043b\u043e\u0432\u0430",
+      "A.A. Checherina"
+    ],
+    "year": 2024,
+    "journal": null,
+    "doi": "10.34660/inf.2019.3.44545",
+    "arxiv_id": "",
+    "pdf_url": "https://doi.org/10.34660/inf.2019.3.44545",
+    "citation": "\u0421\u043e\u043b\u0434\u0430\u0442\u043e\u0432\u0430, \u0413. \u0421., \u041f\u043e\u0441\u043f\u0435\u043b\u043e\u0432\u0430, \u0422. \u0418., & Checherina, A. (2024). POSSIBILITIES OF HYPERAMMONEMIA CORRECTION IN PATIENTS WITH LYMPHOMAS AGAINST THE BACKGROUND OF CYTOSTATIC THERAPY. https://doi.org/10.34660/inf.2019.3.44545 https://doi.org/10.34660/inf.2019.3.44545",
+    "screening_result": "None"
+  },
+  "10.34660_inf.2019.3.44546.pdf": {
+    "title": "METODOLOGICAL ASPECTS OF THE STUDY OF OVICIDAL DISINFECTANT ACTIVITY AND ASSESSMENT OF THE VIABILITY OF HELMINTH EGGS",
+    "authors": [
+      "V. N. Gerasimov",
+      "E. M. Aslanyan",
+      "Mykyta Khramov",
+      "I. A. Dyatlov"
+    ],
+    "year": 2024,
+    "journal": null,
+    "doi": "10.34660/inf.2019.3.44546",
+    "arxiv_id": "",
+    "pdf_url": "https://doi.org/10.34660/inf.2019.3.44546",
+    "citation": "Gerasimov, V. N., Aslanyan, E. M., Khramov, M., & Dyatlov, I. A. (2024). METODOLOGICAL ASPECTS OF THE STUDY OF OVICIDAL DISINFECTANT ACTIVITY AND ASSESSMENT OF THE VIABILITY OF HELMINTH EGGS. https://doi.org/10.34660/inf.2019.3.44546 https://doi.org/10.34660/inf.2019.3.44546",
+    "screening_result": "None"
+  },
+  "10.34660_inf.2019.3.44704.pdf": {
+    "title": "THE EFFECT OF DISPERSION ON THE PROPERTIES OF CEMENT STONE UNDER VARIOUS HARDENING CONDITIONS",
+    "authors": [
+      "D. O. Baidzhanov",
+      "\u041a.\u0410. \u0410\u0431\u0434\u0440\u0430\u0445\u043c\u0430\u043d\u043e\u0432\u0430"
+    ],
+    "year": 2024,
+    "journal": null,
+    "doi": "10.34660/inf.2019.3.44704",
+    "arxiv_id": "",
+    "pdf_url": "https://doi.org/10.34660/inf.2019.3.44704",
+    "citation": "Baidzhanov, D. O. & \u0410\u0431\u0434\u0440\u0430\u0445\u043c\u0430\u043d\u043e\u0432\u0430, \u041a. (2024). THE EFFECT OF DISPERSION ON THE PROPERTIES OF CEMENT STONE UNDER VARIOUS HARDENING CONDITIONS. https://doi.org/10.34660/inf.2019.3.44704 https://doi.org/10.34660/inf.2019.3.44704",
+    "screening_result": "None"
+  },
+  "10.34660_inf.2019.3.44703.pdf": {
+    "title": "TECHNOLOGY FOR PRODUCING CORROSION-RESISTANT FILLER FOR HIGH-STRENGTH CONCRETE",
+    "authors": [
+      "D. O. Baidzhanov",
+      "\u041a.\u0410. \u0410\u0431\u0434\u0440\u0430\u0445\u043c\u0430\u043d\u043e\u0432\u0430"
+    ],
+    "year": 2024,
+    "journal": null,
+    "doi": "10.34660/inf.2019.3.44703",
+    "arxiv_id": "",
+    "pdf_url": "https://doi.org/10.34660/inf.2019.3.44703",
+    "citation": "Baidzhanov, D. O. & \u0410\u0431\u0434\u0440\u0430\u0445\u043c\u0430\u043d\u043e\u0432\u0430, \u041a. (2024). TECHNOLOGY FOR PRODUCING CORROSION-RESISTANT FILLER FOR HIGH-STRENGTH CONCRETE. https://doi.org/10.34660/inf.2019.3.44703 https://doi.org/10.34660/inf.2019.3.44703",
+    "screening_result": "None"
+  },
+  "10.34660_inf.2019.3.44535.pdf": {
+    "title": "STATE POLICY ON CULTURAL HERITAGE IN THE 1920s IN SOVIET HISTORIOGRAPHY",
+    "authors": [
+      "Galina Aleksandrovna Kruglikova"
+    ],
+    "year": 2024,
+    "journal": null,
+    "doi": "10.34660/inf.2019.3.44535",
+    "arxiv_id": "",
+    "pdf_url": "https://doi.org/10.34660/inf.2019.3.44535",
+    "citation": "Kruglikova, G. A. (2024). STATE POLICY ON CULTURAL HERITAGE IN THE 1920s IN SOVIET HISTORIOGRAPHY. https://doi.org/10.34660/inf.2019.3.44535 https://doi.org/10.34660/inf.2019.3.44535",
+    "screening_result": "None"
+  },
+  "10.34660_inf.2019.3.44541.pdf": {
+    "title": "CLINICAL MANIFESTATIONS OF HYPOCALCEMIA IN CRITICALLY ILL PATIENTS",
+    "authors": [
+      "E.N. Ivankova"
+    ],
+    "year": 2024,
+    "journal": null,
+    "doi": "10.34660/inf.2019.3.44541",
+    "arxiv_id": "",
+    "pdf_url": "https://doi.org/10.34660/inf.2019.3.44541",
+    "citation": "Ivankova, E. (2024). CLINICAL MANIFESTATIONS OF HYPOCALCEMIA IN CRITICALLY ILL PATIENTS. https://doi.org/10.34660/inf.2019.3.44541 https://doi.org/10.34660/inf.2019.3.44541",
+    "screening_result": "None"
+  },
+  "10.34660_inf.2019.3.44540.pdf": {
+    "title": "ANTIANAMNESTIC EFFECTS OF NOOTROPICS AND NORMOBARIC HYPOXIC TRAINING IN EXPERIMENTAL TRAUMATIC BRAIN INJURY",
+    "authors": [
+      "T.F. Slobodenyuk"
+    ],
+    "year": 2024,
+    "journal": null,
+    "doi": "10.34660/inf.2019.3.44540",
+    "arxiv_id": "",
+    "pdf_url": "https://doi.org/10.34660/inf.2019.3.44540",
+    "citation": "Slobodenyuk, T. (2024). ANTIANAMNESTIC EFFECTS OF NOOTROPICS AND NORMOBARIC HYPOXIC TRAINING IN EXPERIMENTAL TRAUMATIC BRAIN INJURY. https://doi.org/10.34660/inf.2019.3.44540 https://doi.org/10.34660/inf.2019.3.44540",
+    "screening_result": "None"
+  },
+  "10.34660_inf.2019.3.44701.pdf": {
+    "title": "METAL PROTECTION",
+    "authors": [
+      "O.O. Mirzayev",
+      "S.A. Dolgih"
+    ],
+    "year": 2024,
+    "journal": null,
+    "doi": "10.34660/inf.2019.3.44701",
+    "arxiv_id": "",
+    "pdf_url": "https://doi.org/10.34660/inf.2019.3.44701",
+    "citation": "Mirzayev, O. & Dolgih, S. (2024). METAL PROTECTION. https://doi.org/10.34660/inf.2019.3.44701 https://doi.org/10.34660/inf.2019.3.44701",
+    "screening_result": "None"
+  },
+  "10.34660_inf.2019.3.44528.pdf": {
+    "title": "INNOVATIVE LEARNING TECHNOLOGIES IN THE MATHEMATICAL PREPARATION OF BACHELORS IN TECHNICAL AREAS AND IMPROVING THE QUALITY OF EDUCATION",
+    "authors": [
+      "N.A. Lozovaya",
+      "P.A. Golnev"
+    ],
+    "year": 2024,
+    "journal": null,
+    "doi": "10.34660/inf.2019.3.44528",
+    "arxiv_id": "",
+    "pdf_url": "https://doi.org/10.34660/inf.2019.3.44528",
+    "citation": "Lozovaya, N. & Golnev, P. (2024). INNOVATIVE LEARNING TECHNOLOGIES IN THE MATHEMATICAL PREPARATION OF BACHELORS IN TECHNICAL AREAS AND IMPROVING THE QUALITY OF EDUCATION. https://doi.org/10.34660/inf.2019.3.44528 https://doi.org/10.34660/inf.2019.3.44528",
+    "screening_result": "None"
+  },
+  "10.34660_inf.2019.3.44707.pdf": {
+    "title": "SPELT PASTA WITH VEGETABLE POWDERS",
+    "authors": [
+      "O.F. Fazullina",
+      "\u0421\u0442\u0430\u043d\u0438\u0441\u043b\u0430\u0432 \u0421\u043c\u0438\u0440\u043d\u043e\u0432",
+      "A.A. Korolev"
+    ],
+    "year": 2024,
+    "journal": null,
+    "doi": "10.34660/inf.2019.3.44707",
+    "arxiv_id": "",
+    "pdf_url": "https://doi.org/10.34660/inf.2019.3.44707",
+    "citation": "Fazullina, O., \u0421\u043c\u0438\u0440\u043d\u043e\u0432, \u0421., & Korolev, A. (2024). SPELT PASTA WITH VEGETABLE POWDERS. https://doi.org/10.34660/inf.2019.3.44707 https://doi.org/10.34660/inf.2019.3.44707",
+    "screening_result": "None"
+  },
+  "10.34660_inf.2019.3.44544.pdf": {
+    "title": "DESTRUCTIVE OSTEONECROSIS OF THE JAW AND THE REGULATORY ROLE OF CERTAIN BIOCHEMICAL AND IMMUNOLOGICAL PARAMETERS IN PREDICTING TREATMENT OUTCOMES",
+    "authors": [
+      "A.I. Yaremenko",
+      "H.H. Khaskevich",
+      "T.L. Onokhova"
+    ],
+    "year": 2024,
+    "journal": null,
+    "doi": "10.34660/inf.2019.3.44544",
+    "arxiv_id": "",
+    "pdf_url": "https://doi.org/10.34660/inf.2019.3.44544",
+    "citation": "Yaremenko, A., Khaskevich, H., & Onokhova, T. (2024). DESTRUCTIVE OSTEONECROSIS OF THE JAW AND THE REGULATORY ROLE OF CERTAIN BIOCHEMICAL AND IMMUNOLOGICAL PARAMETERS IN PREDICTING TREATMENT OUTCOMES. https://doi.org/10.34660/inf.2019.3.44544 https://doi.org/10.34660/inf.2019.3.44544",
+    "screening_result": "None"
+  }
+}

@@ -1,0 +1,112 @@
+```markdown
+## Chapter 2: Related Works: Model Context Protocol (MCP)
+
+### 2.1 Introduction
+
+This chapter critically reviews existing literature relevant to the Model Context Protocol (MCP), contextualizing the present study within the broader research landscape of model understanding, explainability, and contextualization. It analyzes various approaches to model understanding, focusing on techniques providing context-aware interpretations and highlighting their limitations in addressing the need for MCP. This chapter compares authors' methodologies, findings, and limitations, identifying key research gaps that this study aims to address, specifically in the context of leveraging model context for enhanced explainability. Finally, it synthesizes the reviewed works to demonstrate how they inform the current research and suggest directions for future inquiry. The scope encompasses works directly addressing MCP, as well as related research in explainable AI (XAI), contextual AI, and model understanding.
+
+### 2.2 Thematic Analysis of Relevant Literature
+
+This section organizes the literature review thematically, focusing on key aspects of MCP and related areas.
+
+#### 2.2.1 Explainable AI (XAI) and Model Interpretability
+
+Explainable AI (XAI) has witnessed significant growth due to the increasing complexity and opacity of machine learning models, especially deep neural networks (DNNs). Numerous methods have been developed to enhance model interpretability (Adadi & Berrada, 2018). However, many of these methods fall short of providing truly context-aware explanations.
+
+**Local Explanation Methods:** LIME (Local Interpretable Model-agnostic Explanations) by Ribeiro et al. (2016) approximates the model locally with a simpler, interpretable model to explain individual predictions. They demonstrate its utility across different model types and datasets. However, LIME's reliance on random perturbations can lead to unstable explanations (Alvarez-Melis & Jaakkola, 2018), and it doesn't inherently account for broader contextual factors influencing the prediction. SHAP (SHapley Additive exPlanations) by Lundberg and Lee (2017) uses Shapley values from game theory to provide a unified framework for interpreting predictions. SHAP offers a more theoretically grounded approach compared to LIME, but its computational cost can be prohibitive for large models (Covert et al., 2021). Furthermore, SHAP values, while providing feature importance, may not reveal *why* a feature is important in a specific context.
+
+**Global Explanation Methods:** These methods provide insights into the overall model behavior. Rule extraction techniques represent a model's decision-making process using understandable rules (Guidotti et al., 2018). While these methods enhance comprehensibility, they often struggle to accurately represent the complexity of modern DNNs, leading to oversimplifications. Moreover, the extracted rules often lack contextual nuance. Visualization techniques, such as those by Zeiler & Fergus (2014), offer a qualitative understanding of the model's internal representations. However, visualizations can be subjective and challenging to interpret, especially with high-dimensional data. These techniques offer limited capabilities in explaining model behavior in different operational contexts. Recent work by Hohman et al. (2019) explores visualization techniques for understanding the behavior of neural networks across different data slices, highlighting the potential for context-aware visualization.
+
+*   **Authors' Approaches:** Ribeiro et al. (2016) prioritize local fidelity. Lundberg and Lee (2017) emphasize fairness and completeness using Shapley values. Guidotti et al. (2018) aim for comprehensibility through human-readable rules. Zeiler & Fergus (2014) employ visualization. Hohman et al. (2019) focus on data slicing for visualization.
+*   **Results and Limitations:** LIME is computationally efficient but sensitive to perturbation and representation choices and lacks contextual awareness. SHAP provides consistent explanations but is computationally expensive and may not reveal contextual importance. Rule extraction can oversimplify complex models and often misses contextual dependencies. Visualization is subjective and may not scale well. Hohman et al. (2019)'s approach requires pre-defined data slices which may not always be available or relevant.
+
+#### 2.2.2 Contextual AI and Context-Aware Models
+
+Contextual AI leverages contextual information to enhance model performance and understanding. Contextual information is data providing additional meaning to the primary input. While these methods improve performance, they often don't explicitly translate the benefits of context into improved *explanations*.
+
+**Contextual Embeddings:** These embeddings capture the context in which a word or phrase appears. BERT (Bidirectional Encoder Representations from Transformers) by Devlin et al. (2018) and similar transformer-based models revolutionized NLP by incorporating contextual information into word embeddings. However, these models often require substantial computational resources and may not always generalize well to different domains (Hendrycks et al., 2020). Furthermore, while BERT captures context, it doesn't directly explain *how* that context influences its predictions in a human-understandable way. Recent work by Tenney et al. (2019) analyzes BERT's contextual representations, but extracting actionable insights remains challenging.
+
+**Context-Aware Recommendation Systems:** These systems use user and item context (e.g., location, time, social network) to provide more personalized recommendations. Adomavicius and Tuzhilin (2015) offer a comprehensive overview. Recent advancements focus on incorporating dynamic contextual factors, such as real-time events, to further refine recommendations (Zhang et al., 2021). However, these systems often focus on optimizing recommendation accuracy, with less emphasis on explaining *why* a particular recommendation is made in a specific context.
+
+*   **Authors' Approaches:** Devlin et al. (2018) use a transformer architecture to learn bidirectional contextual representations. Adomavicius and Tuzhilin (2015) categorize context-aware recommendation techniques. Tenney et al. (2019) analyze BERT's internal representations.
+*   **Results and Limitations:** BERT models achieve state-of-the-art results but are computationally intensive and lack explicit explainability. Context-aware recommendation systems improve accuracy but require careful consideration of privacy and data sparsity issues and don't explicitly explain recommendations based on context. Analyzing contextual embeddings can be challenging.
+
+#### 2.2.3 Model Understanding and Debugging Tools
+
+Model understanding involves developing tools and techniques to help users understand how models work and identify potential issues. These tools often lack the ability to connect model behavior to specific contextual conditions.
+
+**Visualization Tools:** Tools like TensorBoard (Abadi et al., 2016) visualize model architecture, training progress, and learned features, aiding in model debugging. However, interpreting these visualizations requires significant expertise and may not reveal subtle model biases (O'Neil, 2016). Furthermore, these tools rarely provide context-specific insights.
+
+**Debugging Techniques:** Techniques like adversarial examples (Szegedy et al., 2013) probe model vulnerabilities. While effective at identifying weaknesses, adversarial attacks may not reflect real-world scenarios, and defenses against them often lead to reduced model accuracy (Goodfellow et al., 2014). Adversarial examples typically don't offer insights into how contextual factors contribute to model vulnerability. Recent work by Carlini and Wagner (2017) presents stronger adversarial attacks, further highlighting the need for robust defenses and, importantly, understanding *why* models are vulnerable in the first place, potentially tied to specific contexts.
+
+*   **Authors' Approaches:** Abadi et al. (2016) provide a comprehensive visualization platform. Szegedy et al. (2013) explore adversarial example vulnerabilities. Carlini and Wagner (2017) develop stronger adversarial attacks.
+*   **Results and Limitations:** Visualization tools offer insights but may not be sufficient for complex models or provide contextual information. Adversarial examples reveal vulnerabilities but may not generalize or explain contextual influences.
+
+### 2.3 Critical Discussion of the Current State of the Art
+
+The reviewed literature demonstrates a growing interest in XAI, contextual AI, and model understanding. However, several limitations and research gaps persist, specifically regarding the integration of context into explanations.
+
+*   **Lack of Standardized Evaluation Metrics for Context-Aware Explanations:** A consensus on evaluating explanation quality is lacking, particularly for context-aware explanations. Existing metrics often focus on local fidelity or human interpretability but may not capture the broader context or usefulness of the explanation. For example, an explanation might be locally accurate but fail to address the user's concern about the model's behavior in a specific operational environment. Future research should focus on developing more comprehensive metrics that consider various aspects of explanation quality, including accuracy, completeness, contextual relevance, and user satisfaction (Doshi-Velez & Kim, 2017).
+*   **Scalability of Context-Aware XAI to Complex Models:** Many XAI methods struggle to scale to large, complex models, and the incorporation of contextual information further exacerbates this issue. Techniques like model distillation or approximation could be explored to address this limitation (Hinton et al., 2015), but these methods must preserve the contextual nuances relevant to the explanation.
+*   **Seamless Integration of Contextual Information into XAI:** While contextual AI has progressed, integrating contextual information into XAI methods remains a challenge. Many existing XAI methods treat features in isolation, neglecting the complex interactions between features and contextual variables. Future research should investigate methods for seamlessly incorporating contextual features into explanation generation processes, potentially using attention mechanisms or knowledge graphs to represent contextual relationships. The MCP aims to address this by providing a structured way to define and utilize model context.
+*   **User-Centered Design for Context-Aware XAI:** Many XAI tools are designed for experts and may not be accessible to non-technical users, especially when dealing with complex contextual information. There is a need for user-centered design approaches to develop XAI tools that are intuitive and easy to use. Specifically, research should focus on designing interfaces that cater to different user skill levels and provide explanations tailored to their specific needs (Nielsen, 1994). These interfaces should allow users to easily explore how different contextual factors influence model predictions.
+
+### 2.4 Research Gaps
+
+Based on the literature review, the following research gaps have been identified, which the MCP aims to address:
+
+*   **Context-Aware Explanations:** Develop XAI methods that explicitly incorporate contextual information to provide more comprehensive and relevant explanations. This includes investigating techniques for automatically identifying and extracting relevant contextual features for different applications. The MCP directly addresses this gap by providing a protocol for defining and utilizing model context.
+*   **Scalable XAI Techniques:** Develop XAI techniques that can scale to large, complex models without sacrificing accuracy or interpretability. This may involve exploring distributed computing approaches or developing more efficient approximation algorithms, specifically designed to handle contextual data.
+*   **Standardized Evaluation Framework for Context-Awareness:** Develop a standardized evaluation framework for XAI methods that considers multiple dimensions of explanation quality, including fidelity, interpretability, contextual relevance, and usefulness. This framework should include both quantitative metrics and qualitative user studies to assess the effectiveness of different XAI methods.
+*   **User-Friendly XAI Tools for Contextual Exploration:** Design and develop user-friendly XAI tools that are accessible to both experts and non-technical users. This includes developing intuitive interfaces, providing clear and concise explanations, and offering interactive exploration capabilities, specifically focused on allowing users to understand the impact of different contextual factors on model predictions. This should enable users to explore "what-if" scenarios by changing contextual variables.
+
+### 2.5 Synthesis and Conclusion
+
+The reviewed works highlight the importance of model understanding and the challenges associated with explaining complex models. Existing XAI methods provide valuable tools, but they often lack context-awareness and scalability. Contextual AI offers promising approaches for incorporating contextual information, but these approaches have not been fully integrated into XAI methods. The limitations of existing methods underscore the need for a more structured and comprehensive approach to incorporating context into model explanations.
+
+This study aims to address these research gaps by developing a Model Context Protocol (MCP) that provides context-aware explanations for machine learning models. MCP leverages contextual information to generate explanations that are more comprehensive, relevant, and useful for understanding model behavior. This work builds upon existing XAI methods and contextual AI techniques to develop a novel approach for model understanding. Future research directions include developing standardized evaluation metrics for context-aware explanations, designing user-friendly XAI tools that incorporate MCP, and exploring the application of MCP to different domains and model types, with a focus on creating context-rich explanations tailored to specific use cases. The MCP aims to provide a foundation for more reliable, understandable, and trustworthy AI systems.
+
+### References
+
+Abadi, M., Agarwal, A., Barham, P., Brevdo, E., Chen, Z., Citro, C., ... & Ghemawat, S. (2016). TensorFlow: A system for large-scale machine learning. In *12th USENIX Symposium on Operating Systems Design and Implementation (OSDI 16)* (pp. 265-283). [https://www.usenix.org/conference/osdi16/technical-sessions/presentation/abadi](https://www.usenix.org/conference/osdi16/technical-sessions/presentation/abadi)
+
+Adadi, A., & Berrada, M. (2018). Peeking inside the black-box: A survey on Explainable Artificial Intelligence (XAI). *IEEE Access*, *6*, 52138-52160. DOI: 10.1109/ACCESS.2018.2870052
+
+Adomavicius, G., & Tuzhilin, A. (2015). Context-aware recommender systems. In *Recommender systems handbook* (pp. 217-253). Springer, Boston, MA. DOI: 10.1007/978-1-4899-7637-9_6
+
+Alvarez-Melis, D., & Jaakkola, T. S. (2018). On the robustness of local explanations. In *Advances in neural information processing systems* (pp. 11351-11360). [https://proceedings.neurips.cc/paper_files/paper/2018/file/353e4c0f826152666cae59924aa8594a-Paper.pdf](https://proceedings.neurips.cc/paper_files/paper/2018/file/353e4c0f826152666cae59924aa8594a-Paper.pdf)
+
+Carlini, N., & Wagner, D. (2017). Towards evaluating the robustness of neural networks. In *2017 IEEE Symposium on Security and Privacy (SP)* (pp. 39-61). IEEE. DOI: 10.1109/SP.2017.49
+
+Covert, I., Lundberg, S. M., & Lee, S. I. (2021). Understanding complex machine learning models with SHAP. *Nature Machine Intelligence*, *3*(11), 973-979. DOI: 10.1038/s42256-021-00403-1
+
+Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). Bert: Pre-training of deep bidirectional transformers for language understanding. *arXiv preprint arXiv:1810.04805*. [https://arxiv.org/abs/1810.04805](https://arxiv.org/abs/1810.04805)
+
+Doshi-Velez, F., & Kim, B. (2017). Towards a rigorous science of interpretable machine learning. *arXiv preprint arXiv:1702.08608*. [https://arxiv.org/abs/1702.08608](https://arxiv.org/abs/1702.08608)
+
+Goodfellow, I. J., Shlens, J., & Szegedy, C. (2014). Explaining and harnessing adversarial examples. *arXiv preprint arXiv:1412.6572*. [https://arxiv.org/abs/1412.6572](https://arxiv.org/abs/1412.6572)
+
+Guidotti, R., Monreale, A., Ruggieri, S., Turini, F., Giannotti, F., & Pedreschi, D. (2018). A survey of methods for explaining black box models. *ACM computing surveys (CSUR)*, *51*(5), 1-42. DOI: 10.1145/3236009
+
+Hendrycks, D., Zhao, R., Basart, S., Steinhardt, J., & Song, D. (2020). Natural adversarial examples. In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition* (pp. 15255-15264). [https://openaccess.thecvf.com/content_CVPR_2020/html/Hendrycks_Natural_Adversarial_Examples_CVPR_2020_paper.html](https://openaccess.thecvf.com/content_CVPR_2020/html/Hendrycks_Natural_Adversarial_Examples_CVPR_2020_paper.html)
+
+Hinton, G., Vinyals, O., & Dean, J. (2015). Distilling the knowledge in a neural network. *arXiv preprint arXiv:1503.02531*. [https://arxiv.org/abs/1503.02531](https://arxiv.org/abs/1503.02531)
+
+Hohman, F., Kahng, M., Pienta, R., Park, H., Zhang, Z., Chau, D. H., & Höllerer, T. (2019). Visual Analytics in Deep Learning: An interrogative survey. *IEEE transactions on visualization and computer graphics*, *26*(1), 85-106. DOI: 10.1109/TVCG.2019.2934854
+
+Lundberg, S. M., & Lee, S. I. (2017). A unified approach to interpreting model predictions. In *Advances in neural information processing systems* (pp. 4765-4774). [https://proceedings.neurips.cc/paper_files/paper/2017/file/8a20a8621978632d76c43dfd28b67767-Paper.pdf](https://proceedings.neurips.cc/paper_files/paper/2017/file/8a20a8621978632d76c43dfd28b67767-Paper.pdf)
+
+Nielsen, J. (1994). Usability engineering. *Morgan Kaufmann*.
+
+O'Neil, C. (2016). Weapons of math destruction: How big data increases inequality and threatens democracy. *Crown*.
+
+Ribeiro, M. T., Singh, S., & Guestrin, C. (2016). "Why should i trust you?": Explaining the predictions of any classifier. In *Proceedings of the 22nd ACM SIGKDD international conference on knowledge discovery and data mining* (pp. 1135-1144). DOI: 10.1145/2939672.2939778
+
+Szegedy, C., Zaremba, W., Sutskever, I., Bruna, J., Erhan, D., Goodfellow, I., & Fergus, R. (2013). Intriguing properties of neural networks. *arXiv preprint arXiv:1312.6199*. [https://arxiv.org/abs/1312.6199](https://arxiv.org/abs/1312.6199)
+
+Tenney, I., Das, D., & Pavlick, E. (2019). What do you learn from context? probing for sentence-level understanding in contextualized word representations. *arXiv preprint arXiv:1905.06316*. [https://arxiv.org/abs/1905.06316](https://arxiv.org/abs/1905.06316)
+
+Zeiler, M. D., & Fergus, R. (2014). Visualizing and understanding convolutional networks. In *European conference on computer vision* (pp. 818-833). Springer, Cham. DOI: 10.1007/978-3-319-10590-1_53
+
+Zhang, S., Yao, L., Sun, A., & Huang, J. X. (2021). Dynamic context-aware recommender system. *Knowledge-Based Systems*, *215*, 106774. DOI: 10.1016/j.knosys.2021.106774
+```

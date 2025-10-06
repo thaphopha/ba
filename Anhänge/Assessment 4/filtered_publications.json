@@ -1,0 +1,136 @@
+```json
+[
+  {
+    "rank": 1,
+    "title": "Introducing the Model Context Protocol",
+    "authors": "Anthropic",
+    "journal": "Anthropic News",
+    "publication_year": "2024",
+    "doi": "N/A",
+    "abstract": "Announcement of the Model Context Protocol (MCP) by Anthropic.",
+    "access_link": "https://www.anthropic.com/news/model-context-protocol",
+    "quality_rating": "High",
+    "justification": "Official announcement from the creators of MCP, providing foundational information."
+  },
+  {
+    "rank": 2,
+    "title": "Model Context Protocol (MCP) - Claude Docs",
+    "authors": "Anthropic",
+    "journal": "Claude Docs",
+    "publication_year": "N/A",
+    "doi": "N/A",
+    "abstract": "Documentation for the Model Context Protocol (MCP) by Anthropic.",
+    "access_link": "https://docs.claude.com/en/docs/mcp",
+    "quality_rating": "High",
+    "justification": "Official documentation; a primary source for understanding MCP's technical details."
+  },
+  {
+    "rank": 3,
+    "title": "Introduction to Model Context Protocol - Anthropic Courses",
+    "authors": "Anthropic",
+    "journal": "Anthropic Courses",
+    "publication_year": "N/A",
+    "doi": "N/A",
+    "abstract": "Introduces how to build modular AI applications using MCP.",
+    "access_link": "https://anthropic.skilljar.com/introduction-to-model-context-protocol",
+    "quality_rating": "High",
+    "justification": "Official course material, offering practical guidance on using MCP."
+  },
+  {
+    "rank": 4,
+    "title": "Model Context Protocol (MCP): Landscape, Security Threats, and...",
+    "authors": "Unknown",
+    "journal": "arXiv",
+    "publication_year": "2025",
+    "doi": "N/A",
+    "abstract": "Overview of Model Context Protocol (MCP), its security threats, and mitigation strategies.",
+    "access_link": "https://arxiv.org/pdf/2503.23278",
+    "quality_rating": "Medium",
+    "justification": "Preprint on arXiv, likely to contain valuable insights into security aspects, although not peer-reviewed yet."
+  },
+  {
+   "rank": 5,
+    "title": "Model Context Protocol ( MCP ): Landscape, Security Threats, and...",
+    "authors": "Unknown",
+    "journal": "Arxiv",
+    "publication_year": "2025",
+    "doi": "N/A",
+    "abstract": "Discusses tool integration in LLM applications and the role of Model Context Protocol (MCP)",
+    "access_link": "https://arxiv.org/pdf/2503.23278",
+    "quality_rating": "Medium",
+    "justification": "Preprint on arXiv, focuses on tool integration, which is pretty relevant."
+  },
+  {
+    "rank": 6,
+    "title": "Studying the Security and Maintainability of MCP Servers",
+    "authors": "Unknown",
+    "journal": "ResearchGate",
+    "publication_year": "2025",
+    "doi": "N/A",
+    "abstract": "Empirical study of the health, security, and maintainability of Model Context Protocol (MCP) servers.",
+    "access_link": "https://www.researchgate.net/publication/392736704_Model_Context_Protocol_MCP_at_First_Glance_Studying_the_Security_and_Maintainability_of_MCP_Servers",
+    "quality_rating": "Medium",
+    "justification": "ResearchGate publication focusing on security and maintainability, important for practical deployments. Needs further investigation of methodology."
+  },
+  {
+    "rank": 7,
+    "title": "Anthropic's Model Context Protocol (MCP): A Deep Dive for Developers",
+    "authors": "Amanatulla",
+    "journal": "Medium",
+    "publication_year": "2024",
+    "doi": "N/A",
+    "abstract": "Provides a deep dive into Anthropic's Model Context Protocol (MCP) for developers.",
+    "access_link": "https://medium.com/@amanatulla1606/anthropics-model-context-protocol-mcp-a-deep-dive-for-developers-1d3db39c9fdc",
+    "quality_rating": "Low",
+    "justification": "Medium article providing a developer's perspective. Useful for practical insights but not a primary research source."
+  },
+  {
+    "rank": 8,
+    "title": "Rickxie The Model Context Protocol (MCP) Ecosystem (2024–2025)",
+    "authors": "Rickxie",
+    "journal": "rickxie.cn",
+    "publication_year": "2025",
+    "doi": "N/A",
+    "abstract": "Discusses the MCP ecosystem and its impact on platforms.",
+    "access_link": "https://rickxie.cn/blog/MCP/",
+    "quality_rating": "Low",
+    "justification": "Blog post discussing the MCP ecosystem. Useful for gaining a general understanding, but not a rigorous research source."
+  },
+  {
+    "rank": 9,
+    "title": "Safety and Security in the Model Context Protocol (MCP)",
+    "authors": "Carlosm0303",
+    "journal": "Medium",
+    "publication_year": "2024",
+    "doi": "N/A",
+    "abstract": "Discussion of safety and security considerations in the Model Context Protocol (MCP).",
+    "access_link": "https://medium.com/@carlosm0303/safety-and-security-in-the-model-context-protocol-mcp-c6319778b150",
+    "quality_rating": "Low",
+    "justification": "Medium article discussing safety and security. Useful for awareness but not a primary research source."
+  },
+  {
+    "rank": 10,
+    "title": "Model Context Protocol (MCP): Understanding security risks and...",
+    "authors": "Unknown",
+    "journal": "Red Hat Blog",
+    "publication_year": "2024",
+    "doi": "N/A",
+    "abstract": "Analysis of security risks and controls associated with the Model Context Protocol (MCP).",
+    "access_link": "https://www.redhat.com/en/blog/model-context-protocol-mcp-understanding-security-risks-and-controls",
+    "quality_rating": "Low",
+    "justification": "Red Hat blog post analyzing security risks. Provides a practical perspective on security considerations."
+  },
+  {
+    "rank": 11,
+    "title": "The Security Risks of Model Context Protocol (MCP)",
+    "authors": "Unknown",
+    "journal": "Pillar Security Blog",
+    "publication_year": "2024",
+    "doi": "N/A",
+    "abstract": "Examination of the security risks associated with the Model Context Protocol (MCP).",
+    "access_link": "https://www.pillar.security/blog/the-security-risks-of-model-context-protocol-mcp",
+    "quality_rating": "Low",
+    "justification": "Security blog post examining security risks. Useful for understanding potential vulnerabilities."
+  }
+]
+```
